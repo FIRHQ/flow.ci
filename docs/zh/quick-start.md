@@ -1,15 +1,17 @@
 # 快速入门
 
-Flow.ci 是一个持续集成 & 持续部署工具，配置简单，三分钟构建你的第一个项目。现在我们来快速的创建你的第一个项目吧！
+flow.ci 不只是持续集成 & 持续交付服务，更可以集成你工作中的各个工具，将开发中代码以外的全部工作自动化。
 
-要使用flow.ci 只要一个条件：
+flow.ci 配置简单，三分钟构建你的第一个项目。现在我们来快速的创建你的第一个项目吧！
+
+要使用 flow.ci 只要一个条件：
 
 <b> “代码要托管到 Github / Bitbucket /GitLab”</b>
 
 
 ## 创建项目
 
-第一次登录 Flow.ci 之后，会自动跳转创建项目页面，选择绑定你的 Github/Bitbucket/GitLab账号
+第一次登录 flow.ci 之后，会自动跳转创建项目页面，选择绑定你的 Github/Bitbucket/GitLab账号
 <img src="https://dn-shimo-image.qbox.me/npbNtxsvdbottSd4.png!thumbnail" width = 680>
 
 授权你的 Github / Bitbucket 账号，这里以 Github 为例
@@ -51,7 +53,7 @@ Flow.ci 是一个持续集成 & 持续部署工具，配置简单，三分钟构
 
 <img src="https://dn-shimo-image.qbox.me/3MXpUHxHqvQHmSNt.png!thumbnail" width = 680>
 
-Flow.ci 会自动开始构建，点击可以查看构建详情
+flow.ci 会自动开始构建，点击可以查看构建详情
 
 <img src="https://dn-shimo-image.qbox.me/l8pORvMcfEQfpwKC.png!thumbnail" width = 680>
 
