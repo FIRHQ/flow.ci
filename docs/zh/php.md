@@ -1,5 +1,5 @@
 # PHP
-Flow.ci 当前支持以下 PHP 版本：
+flow.ci 当前支持以下 PHP 版本：
 
 - PHP 5.3.29
 - PHP 5.4.45

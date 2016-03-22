@@ -1,6 +1,6 @@
 # Python
 
-Flow.ci 当前支持以下 Python 版本：
+flow.ci 当前支持以下 Python 版本：
 
 - Python 2.6.9
 - Python 2.7
