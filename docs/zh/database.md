@@ -1,5 +1,5 @@
 # 支持数据库
-Flow.ci 已经有插件支持的数据库类型有：
+flow.ci 已经有插件支持的数据库类型有：
 
 - Redis
 - MongoDB

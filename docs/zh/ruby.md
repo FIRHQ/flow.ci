@@ -1,6 +1,6 @@
 # Ruby
 
-Flow.ci 当前支持以下 Ruby 版本：
+flow.ci 当前支持以下 Ruby 版本：
 
 - Ruby 1.9.3
 - Ruby 2.0.0

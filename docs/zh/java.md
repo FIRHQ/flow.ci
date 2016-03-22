@@ -1,6 +1,6 @@
 # Java （Android 项目）
 
-Flow.ci 当前支持以下 Java （Android 项目）版本：
+flow.ci 当前支持以下 Java （Android 项目）版本：
 
 - JDK     (jdk7、jdk8)
 - SDK  （android -14 ~ android - 23 ）
