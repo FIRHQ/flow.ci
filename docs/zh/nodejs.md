@@ -1,6 +1,6 @@
 # Node.js
 
-Flow.ci 当前支持以下 Node 版本：
+flow.ci 当前支持以下 Node 版本：
 
 - Node v0.10.32
 - Node  v0.12.2
