@@ -15,4 +15,4 @@ Android 项目同样使用 Gradle 执行测试：
 <img src="https://dn-shimo-image.qbox.me/2jF5nRrZJGQs66gV.png!thumbnail">
 
 
-详细的配置使用文档，可参考：[快速入门](http://flow.ci/documents/start)
+详细的配置使用文档，可参考：[快速入门](./quick-start.md)

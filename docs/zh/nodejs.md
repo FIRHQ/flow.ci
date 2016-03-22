@@ -18,5 +18,6 @@ Node 项目同样使用 NPM 执行测试：
 <img src="https://dn-shimo-image.qbox.me/3lbd7vcWHvE62OOz.png!thumbnail">
 
 
-详细的配置使用文档，可参考：[快速入门](http://flow.ci/documents/start)
+详细的配置使用文档，可参考：[快速入门](./quick-start.md)
+
 
