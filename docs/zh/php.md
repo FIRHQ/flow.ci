@@ -22,5 +22,5 @@ flow.ci 当前支持以下 PHP 版本：
 
 PHP 项目默认使用 pupunit 执行测试
 
-详细的配置使用文档，可参考：[快速入门](http://flow.ci/documents/start)
+详细的配置使用文档，可参考：[快速入门](./quick-start.md)
 

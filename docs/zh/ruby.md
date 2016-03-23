@@ -23,4 +23,4 @@ Ruby 项目默认使用 Rake 执行测试：
 
 ![ruby测试](https://dn-shimo-image.qbox.me/NZQgJ3EbBMk8fv4H.png!thumbnail)
 
-详细的配置使用文档，可参考：[快速入门](http://flow.ci/documents/start)
+详细的配置使用文档，可参考：[快速入门](./quick-start.md)

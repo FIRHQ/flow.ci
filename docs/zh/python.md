@@ -19,5 +19,5 @@ flow.ci 当前支持以下 Python 版本：
 
 - make test
 
-详细的配置使用文档，可参考：[快速入门](http://flow.ci/documents/start)
+详细的配置使用文档，可参考：[快速入门](./quick-start.md)
 
