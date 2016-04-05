@@ -10,4 +10,5 @@
 8. [工作流设置(flow)](./flow.md)
 9. [消息通知](./notice.md)
 10. [FAQ - GitLab 创建项目](./faq.md)
-11. [flow.ci 服务协议](./term_zh_cn.md)
+11. [flow.ci 服务协议](./term.md)
+12. [flow.ci 隐私协议](./privacy.md)
