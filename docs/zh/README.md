@@ -1,6 +1,6 @@
 # flow.ci 中文文档
 
-1. [flow.ci 快速入门](./quick-start.md)
+## 1. [flow.ci 快速入门](./quick-start.md)
 2. [语言 - Ruby](./ruby.md)
 3. [语言 - PHP](./php.md)
 4. [语言 - Python](./python.md)
