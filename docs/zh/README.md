@@ -2,7 +2,8 @@
 
 1. [flow.ci 快速入门](./quick-start.md)
 2. [创建项目]()
-  2.1）创建 GitHub 项目]()
+
+  2.1）[创建 GitHub 项目]()
 
 2. [语言 - Ruby](./ruby.md)
 3. [语言 - PHP](./php.md)
