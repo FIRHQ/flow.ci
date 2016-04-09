@@ -1,0 +1,17 @@
+当前支持以下四种方式触发构建：
+
+- 1.[手动构建]()
+- 2.[git 的 push 请求]()
+- 3.[pull request 请求]()
+- 4.[每日构建]()
+
+开始构建之后 Builds 中会列出每次 Build ，不同的颜色代表 Build 当前的状态：
+
+黄色代表等待进入队列
+蓝色代表构建中
+绿色代表构建成功
+红色代表构建失败
+
+点击 build  可查看构建详情。
+<img src="https://dn-shimo-image.qbox.me/HiJ8og6ra9caahpL.png!thumbnail" width=680>
+
