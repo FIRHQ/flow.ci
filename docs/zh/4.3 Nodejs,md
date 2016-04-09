@@ -1,0 +1,42 @@
+flow.ci 当前支持以下 Node 版本：
+
+Node v0.10.32
+Node  v0.12.2
+Node  v4.0.0
+Node  v5.2.0
+
+依赖安装
+
+Node 项目默认使用 NPM 作为依赖管理工具
+
+插件
+
+基础插件：
+[Initalize]()：初始化环境
+[Variables]()：环境变量设置
+[Cache]()：开启缓存，提高构建速度
+[Git Clone]()：从 git 拉取最新代码
+[Install]()：安装依赖管理工具
+[Test]()：执行测试
+[Deploy]():基础的部署模板
+
+数据库插件：
+[MySQL Database]()
+[MongoDB Database]()
+[Redis Database]()
+
+消息通知插件：
+[Email Sender]()：邮件通知
+[slack notification]()：Slack 消息通知
+
+代码检测插件：
+[Eslint]():Nodejs 代码质量检查
+[Eslint Render]()：Nodejs 代码质量检查
+
+第三方插件：
+[fir.im Uploader]()：将生成的 .ipa 或.apk 上传到 fir.im
+[qiniu Upload](): 上传产出物到七牛
+
+自定义插件：
+[Custom Script]()：自定义脚本，通过脚本完成定制化需求
+
