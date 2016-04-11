@@ -19,16 +19,16 @@
 4. [支持语言](./4. 支持语言.md)
 
 - [4.1 PHP](./4.1 PHP.md)
-- [4.2 Java for Android](./4.2 Java for Android.md）	
+- [4.2 Java for Android](./4.2 Java for Android.md)	
 - [4.3 Nodejs](./4.3 Nodejs.md)
 - [4.4 Ruby](./4.4 Ruby.md)
 - [4.5 Python](./4.5 Python.md)
 
 5. [flow 设置.md](./5. flow 设置.md)
 
-  - 2.1[5.1 插件的添加，修改，删除](./5.1 插件的添加，修改，删除.md)
-  - 2.2[5.2 插件的 Inputs & Outputs](./5.2 插件的 Inputs & Outputs.md)
-  - 2.3[5.3 插件列表](./5.3 插件列表.md)
+  - [5.1 插件的添加，修改，删除](./5.1 插件的添加，修改，删除.md)
+  - [5.2 插件的 Inputs & Outputs](./5.2 插件的 Inputs & Outputs.md)
+  - [5.3 插件列表](./5.3 插件列表.md)
 
 6. [FAQ](./FAQ.md)
 
