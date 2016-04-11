@@ -24,7 +24,7 @@
   - [4.4 Ruby](./4.4 Ruby.md)
   - [4.5 Python](./4.5 Python.md)
 
-[5. flow 设置.md](./5. flow 设置.md)
+[5. flow 设置](./5. flow 设置.md)
 
   - [5.1 插件的添加，修改，删除](./5.1 插件的添加，修改，删除.md)
   - [5.2 插件的 Inputs & Outputs](./5.2 插件的 Inputs & Outputs.md)
