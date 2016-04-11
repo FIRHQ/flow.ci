@@ -4,14 +4,14 @@
 
 2. [创建项目](./创建项目.md)
 
-  - 2.1[创建 GitHub 项目](./创建 GitHub 项目.md)
-  - 2.2[创建 Bitbucket 项目](./创建 Bitbucket 项目.md)
-  - 2.3[创建 GitLab 项目](./创建 GitLab 项目.md)
+  - [2.1 创建 GitHub 项目](./创建 GitHub 项目.md)
+  - [2.2 创建 Bitbucket 项目](./创建 Bitbucket 项目.md)
+  - [2.3 创建 GitLab 项目](./创建 GitLab 项目.md)
 
 3. [构建 Build](./3. 构建 Build.md)
 
 - [3.1 手动 Build](./3.1 手动 Build.md)
-- [3.2 git 的 push 请求触发 Build](./3.2 git 的 push 请求触发 Build.md）	
+- [3.2 git 的 push 请求触发 Build](./3.2 git 的 push 请求触发 Build.md)
 - [3.3 Pull Request 触发 Build](./3.3 Pull Request 触发 Build .md)
 - [3.4 每日构建.md](./3.4 每日构建.md)
 
@@ -31,5 +31,7 @@
   - 2.3[5.3 插件列表](./5.3 插件列表.md)
 
 6. [FAQ](./FAQ.md)
+
 7. [flow.ci 服务协议](./flow.ci 服务协议.md)
+
 8. [flow.ci 隐私协议](./flow.ci 隐私政策.md)
