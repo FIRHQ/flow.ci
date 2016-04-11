@@ -10,19 +10,19 @@
 
 3. [构建 Build](./3. 构建 Build.md)
 
-- [3.1 手动 Build](./3.1 手动 Build.md)
-- [3.2 git 的 push 请求触发 Build](./3.2 git 的 push 请求触发 Build.md)
-- [3.3 Pull Request 触发 Build](./3.3 Pull Request 触发 Build .md)
-- [3.4 每日构建.md](./3.4 每日构建.md)
+  - [3.1 手动 Build](./3.1 手动 Build.md)
+  - [3.2 git 的 push 请求触发 Build](./3.2 git 的 push 请求触发 Build.md)
+  - [3.3 Pull Request 触发 Build](./3.3 Pull Request 触发 Build .md)
+  - [3.4 每日构建.md](./3.4 每日构建.md)
 
 
 4. [支持语言](./4. 支持语言.md)
 
-- [4.1 PHP](./4.1 PHP.md)
-- [4.2 Java for Android](./4.2 Java for Android.md)	
-- [4.3 Nodejs](./4.3 Nodejs.md)
-- [4.4 Ruby](./4.4 Ruby.md)
-- [4.5 Python](./4.5 Python.md)
+  - [4.1 PHP](./4.1 PHP.md)
+  - [4.2 Java for Android](./4.2 Java for Android.md)	
+  - [4.3 Nodejs](./4.3 Nodejs.md)
+  - [4.4 Ruby](./4.4 Ruby.md)
+  - [4.5 Python](./4.5 Python.md)
 
 5. [flow 设置.md](./5. flow 设置.md)
 
