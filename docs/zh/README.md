@@ -32,6 +32,6 @@
 
 [6. FAQ](./FAQ.md)
 
-[7.1 flow.ci 服务协议](./flow.ci 服务协议.md)
+[7. flow.ci 服务协议](./flow.ci 服务协议.md)
 
-[7.2 flow.ci 隐私协议](./flow.ci 隐私政策.md)
+[8. flow.ci 隐私协议](./flow.ci 隐私政策.md)
