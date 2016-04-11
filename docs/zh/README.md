@@ -30,7 +30,7 @@
   - [5.2 插件的 Inputs & Outputs](./5.2 插件的 Inputs & Outputs.md)
   - [5.3 插件列表](./5.3 插件列表.md)
 
-[6. FAQ](./FAQ.md)
+[6. FAQ](./6. FAQ.md)
 
 [7. flow.ci 服务协议](./flow.ci 服务协议.md)
 
