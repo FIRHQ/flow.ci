@@ -5,7 +5,7 @@
 [2. 创建项目](./2. 创建项目.md)
 
   - [2.1 创建 GitHub 项目](./2.1 创建 GitHub 项目.md)
-  - [2.2 创建 Bitbucket 项目](./2.2 创建 Bitbucket 账号.md)
+  - [2.2 创建 Bitbucket 项目](./2.2 创建 Bitbucket 项目.md)
   - [2.3 创建 GitLab 项目](./2.3 创建 GitLab 项目.md)
 
 [3. 构建 Build](./3. 构建 Build.md)
