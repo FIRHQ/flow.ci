@@ -6,3 +6,4 @@
 1. [English](./docs/en/)
 2. [中文](./docs/zh/)
 
+<img src="https://dn-shimo-image.qbox.me/PuFebG7BMeMBexPo.gif!thumbnail" width=680>
