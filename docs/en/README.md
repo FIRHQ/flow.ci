@@ -24,7 +24,7 @@
 - [4.4 Ruby](./4.4 Ruby.md)
 - [4.5 Python](./4.5 Python.md)
 
-[5. flow settings.md](./5. flow settings.md)
+[5. flow settings](./5. flow settings.md)
 
   - [5.1 Add plugin, modify, delete](./5.1 Add plugin, modify, delete.md)
   - [5.2 Plugin Inputs & Outputs](./5.2 Plugin Inputs & Outputs.md)
