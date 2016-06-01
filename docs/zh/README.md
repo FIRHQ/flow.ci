@@ -12,7 +12,7 @@
 
   - [3.1 手动 Build](./3.1 手动 Build.md)
   - [3.2 git 的 push 请求触发 Build](./3.2 git 的 push 请求触发 Build.md)
-  - [3.3 Pull Request 触发 Build](./3.3 Pull Request 触发 Build .md)
+  - [3.3 Pull Request 触发 Build](./3.3 Pull Request 触发 Build.md)
   - [3.4 每日构建.md](./3.4 每日构建.md)
 
 
