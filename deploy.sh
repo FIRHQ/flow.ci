@@ -12,8 +12,6 @@ LATEST_DIR="${REMOTE_DIR}/latest"
 TARGET=$1
 PORT=22
 
-echo "########## Deploy to ${TARGET} ##########"
-
 # BUILD & Choose server
 
 if [ ! -z ${TARGET} ]; then
@@ -38,10 +36,11 @@ echo "########## Build success ##########"
 
 
 # DEPLOY
+echo "########## Deploy to ${TARGET} ##########"
 ssh ${USER}@${HOST} -p ${PORT} "mkdir -p ${DEPLOY_DIR}"
 
 scp -P ${PORT}  -rv ./dist/* ${USER}@${HOST}:${DEPLOY_DIR}
-ssh ${USER}@${HOST} -p ${PORT}  <<EOF
+ssh ${USER}@${HOST} -p ${PORT} bash -x <<EOF
 if [ -d ${LATEST_DIR} ]; then
    rm -rf ${LATEST_DIR}
 fi
