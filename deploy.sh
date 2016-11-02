@@ -16,7 +16,6 @@ PORT=22
 
 if [ ! -z ${TARGET} ]; then
   USER=deploy
-
   if [ "${TARGET}" == "local" ]; then
     # 从内部部署
     HOST="127.0.0.1"
