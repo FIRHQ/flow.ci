@@ -3,7 +3,7 @@ Edit
 关于手动build 的接口
 地址
 
-/projects/{project_id}/manual_hook
+>> /projects/{project_id}/manual_hook
 
 参数
 
