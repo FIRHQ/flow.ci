@@ -1,7 +1,7 @@
 
 # 手动触发构建 Webhook 地址
 
-> /projects/{project_id}/manual_hook
+> https://api.flow.ci/projects/{project_id}/manual_hook
 
 ## 参数
 
