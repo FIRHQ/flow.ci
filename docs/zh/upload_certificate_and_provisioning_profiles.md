@@ -1,9 +1,11 @@
-# 一、上传 Provisioning Profiles
+# 如何找到 Provisioning Profiles & 证书文件
+
+## 一、上传 Provisioning Profiles
 
 你可以直接在苹果开发者后台下载 Provisioning Profiles，点击[去苹果下载](https://developer.apple.com/account/ios/profile/profileList.action)。
 
 
-二、上传签名证书
+## 二、上传签名证书
 打开钥匙串访问，点击证书，选择证书文件
 
 <img src="https://dn-shimo-image.qbox.me/wpME1XEV120bvt88/image.png!thumbnail" width=680>
