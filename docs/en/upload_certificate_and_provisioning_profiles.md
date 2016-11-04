@@ -1,16 +1,17 @@
 # how to find certificates and provisioning profiles
 
-## 一、上传 Provisioning Profiles
+## Upload Provisioning Profiles
 
-你可以直接在苹果开发者后台下载 Provisioning Profiles，点击[去苹果下载](https://developer.apple.com/account/ios/profile/profileList.action)。
+Your provisioning profiles can be  downloaded directly from Apple.Click[here](https://developer.apple.com/account/ios/profile/profileList.action)to download it.
 
 
-## 二、上传签名证书
-打开钥匙串访问，点击证书，选择证书文件
+## Upload Your Code Signing Identity
+
+Open the Keychain  and select Certificates.
 
 <img src="https://dn-shimo-image.qbox.me/wpME1XEV120bvt88/image.png!thumbnail" width=680>
 
-同时选择证书和专用密钥两项，右键导入专用2项
+Click your certificate to expose your Private Key.Choose both certificate and private key ,click Export and save your Private Key to a location of your choice.
 
 <img src="https://dn-shimo-image.qbox.me/Tu06O2H8Uu4alWhL/image.png!thumbnail" width=680>
 
