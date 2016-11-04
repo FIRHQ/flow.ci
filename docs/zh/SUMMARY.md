@@ -26,7 +26,7 @@
   - [插件列表](./5.3 插件列表.md)
 
 * [FAQ](./6. FAQ.md)
-  - [如何找到 Provisioning Profiles & 证书文件](./6.1如何找到 Provisioning Profiles & 证书文件.md)
+  - [如何找到 Provisioning Profiles & 证书文件](./upload_certificates_and_provisioning_profiles.md)
 
 * [服务协议](./flow.ci 服务协议.md)
 
