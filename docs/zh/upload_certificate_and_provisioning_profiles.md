@@ -12,11 +12,12 @@
 
 <img src="https://dn-shimo-image.qbox.me/Tu06O2H8Uu4alWhL/image.png!thumbnail" width=680>
 
-Create a password for your exported .p12 file.
+导出证书，并设置证书密码
 
 <img src="https://dn-shimo-image.qbox.me/GUKq1hpuUwYKt8RU/image.png!thumbnail" width=680>
 
-Go back to flow.ci. Upload your .p12 file and enter the password you created above.
+
+在 flow.ci 中设置上传上面的 Provisioning Profiles 和证书文件，并输入导出证书时设置的密码即可 
 
 <img src="https://dn-shimo-image.qbox.me/RT0gCCiBhGIMXr1k/image.png!thumbnail" width=680>
 
