@@ -2,7 +2,7 @@
 
 ## Upload Provisioning Profiles
 
-Your provisioning profiles can be  downloaded directly from Apple.Click[here](https://developer.apple.com/account/ios/profile/profileList.action)to download it.
+Your provisioning profiles can be  downloaded directly from Apple.If you want to find it,click[here](https://developer.apple.com/account/ios/profile/profileList.action).
 
 
 ## Upload Your Code Signing Identity
