@@ -26,7 +26,9 @@
   - [插件列表](./5.3 插件列表.md)
 
 * [FAQ](./6. FAQ.md)
-
+  - [如何找到 Provisioning Profiles & 证书文件](./upload_certificate_and_provisioning_profiles.md)
+  - [手动触发构建 Webhook 地址](./webhook.md)
+  
 * [服务协议](./flow.ci 服务协议.md)
 
 * [隐私协议](./flow.ci 隐私政策.md)
