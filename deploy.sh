@@ -40,9 +40,7 @@ ssh ${USER}@${HOST} -p ${PORT} "mkdir -p ${DEPLOY_DIR}"
 
 scp -P ${PORT}  -rv ./dist/* ${USER}@${HOST}:${DEPLOY_DIR}
 ssh ${USER}@${HOST} -p ${PORT} bash -x <<EOF
-if [ -d ${LATEST_DIR} ]; then
-   rm -rf ${LATEST_DIR}
-fi
+rm -rf ${LATEST_DIR}
 ln -s ${DEPLOY_DIR} ${LATEST_DIR}
 ls ${RELEASE_DIR} | grep "^[0-9]\{1,\}$" | sort -r | sed -n '6,\$p' | awk '{cmd="rm -rf ${RELEASE_DIR}/"$1; system(cmd)}'
 exit
