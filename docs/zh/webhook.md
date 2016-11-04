@@ -1,14 +1,14 @@
 
 # 手动触发构建 Webhook 地址
 
-> https://api.flow.ci/projects/{project_id}/manual_hook
+> Post https://api.flow.ci/projects/{project_id}/manual_hook
 
 ## 参数
 
 <table>
     <tr>
         <td>名称</td>
-        <td>必须</td>
+        <td>必填</td>
         <td>说明</td>
     </tr>
       <tr>
