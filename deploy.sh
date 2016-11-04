@@ -52,7 +52,7 @@ sed -i '/author/a\ \<meta name="version" content="production|COMMIT-TAG"\>' ./di
 sed -i '/author/a\ \<meta http-equiv="last-modified" content="UPDATE-TIME"\>' ./dist/index.html
 
 sed -i "s/COMMIT-TAG/${branch}-${commit}/g" ./dist/index.html
-sed -i "s/UPDATE-TIME/${ts}/g" ./dist/index.html
+sed -i "s/UPDATE-TIME/${currDate}/g" ./dist/index.html
 
 
 # DEPLOY
