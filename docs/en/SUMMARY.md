@@ -27,7 +27,8 @@
   - [Plugin list](./5.3 Plugin list.md)
 
 * [FAQ](./6. FAQ.md)
-
+ - [how to find certificates and provisioning profiles](./upload_certificate_and_provisioning_profiles.md)
+ - [Manual Build Webhook](./webhook.md)
 * [Privacy](./privacy.md)
 
 * [Term](./term.md)
