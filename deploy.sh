@@ -43,6 +43,9 @@ else
 fi
 
 branch=$(git rev-parse --abbrev-ref HEAD)
+if [ -n "$FLOW_GIT_BRANCH" ] ; then
+  branch=$FLOW_GIT_BRANCH
+fi
 commit=$(git rev-parse --short HEAD)
 
 sed -i '/author/a\ \<meta name="version" content="production|COMMIT-TAG"\>' ./dist/index.html
