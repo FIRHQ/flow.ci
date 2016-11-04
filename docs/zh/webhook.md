@@ -22,14 +22,9 @@
         <td>启动的分支</td>
     </tr>
       <tr>
-        <td>flow_id</td>
-        <td>否</td>
-        <td>启动的flow的标记，不填写，则为默认flow(用户暂时只有默认flow)</td>
-    </tr>
-      <tr>
         <td>user_commit_data</td>
         <td>否</td>
-        <td>用户的自定义参数，此处以hash形式传输 如 {“a”: 1, “b”: “Hello world”}</td>
+        <td>用户的自定义参数，此处以 hash 形式传输，如 {“a”: 1, “b”: “Hello world”}</td>
     </tr>
 </table>
     
