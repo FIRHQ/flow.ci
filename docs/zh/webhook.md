@@ -14,12 +14,12 @@
       <tr>
         <td>api_token</td>
         <td>是</td>
-        <td>用户的api_token</td>
+        <td>用户的 API Token</td>
     </tr>
       <tr>
         <td>branch</td>
         <td>是</td>
-        <td>启动的分支</td>
+        <td>设置构建的分支</td>
     </tr>
       <tr>
         <td>user_commit_data</td>
