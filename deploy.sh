@@ -33,6 +33,24 @@ fi;
 gitbook build docs dist
 echo "########## Build success ##########"
 
+# insert build info
+FMT="%Y-%m-%dT%H:%M:%SZ"
+currDate=`date -u +"$FMT"`
+if [[ `uname` == 'Darwin' ]]; then
+  ts=$(date -j -f "$FMT" "${currDate}" "+%s") 
+else
+  ts=$(date --date="${currDate}" +"%s")
+fi
+
+branch=$(git rev-parse --abbrev-ref HEAD)
+commit=$(git rev-parse --short HEAD)
+
+sed -i '/author/a\ \<meta name="version" content="production|COMMIT-TAG"\>' ./dist/index.html
+sed -i '/author/a\ \<meta http-equiv="last-modified" content="UPDATE-TIME"\>' ./dist/index.html
+
+sed -i "s/COMMIT-TAG/${branch}-${commit}/g" ./dist/index.html
+sed -i "s/UPDATE-TIME/${ts}/g" ./dist/index.html
+
 
 # DEPLOY
 echo "########## Deploy to ${TARGET} ##########"
