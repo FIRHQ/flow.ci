@@ -63,7 +63,7 @@ ssh ${USER}@${HOST} -p ${PORT} "rm -rfv ${LATEST_DIR}"
 scp -P ${PORT}  -rv ./dist/* ${USER}@${HOST}:${DEPLOY_DIR}
 ssh ${USER}@${HOST} -p ${PORT} bash -x <<EOF
 ln -s ${DEPLOY_DIR} ${LATEST_DIR}
-#ls ${RELEASE_DIR} | grep "^[0-9]\{1,\}$" | sort -r | sed -n '6,\$p' | awk '{cmd="rm -rf ${RELEASE_DIR}/"$1; system(cmd)}'
+# ls ${RELEASE_DIR} | grep "^[0-9]\{1,\}$" | sort -r | sed -n '6,\$p' | awk '{cmd="rm -rf ${RELEASE_DIR}/"$1; system(cmd)}'
 exit
 EOF
 echo "########## Deploy $HOST  success ##########"
