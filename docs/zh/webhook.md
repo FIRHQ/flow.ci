@@ -1,6 +1,8 @@
 
 # 手动触发构建 Webhook 地址
 
+flow.ci 支持多种构建触发条件，你可以在 flows 设置中的 Trigger 设置。除此之外，你可以通过 WebHook 接口触发项目构建，以下是 WebHook 触发构建的 API 接口和相应的参数。
+
 > Post https://api.flow.ci/projects/{project_id}/manual_hook
 
 ## 参数
