@@ -5,7 +5,7 @@ flow.ci 支持多种构建触发条件，你可以在 flows 设置中的 Trigger
 
 # API
 
-> Post https://api.flow.ci/projects/{project_id}/manual_hook
+**POST** `https://api.flow.ci/projects/{project_id}/manual_hook`
 
 ## 参数
 
@@ -28,7 +28,7 @@ flow.ci 支持多种构建触发条件，你可以在 flows 设置中的 Trigger
       <tr>
         <td>user_commit_data</td>
         <td>否</td>
-        <td>用户的自定义参数，此处以 hash 形式传输，如 {“a”: 1, “b”: “Hello world”}</td>
+        <td>自定义环境变量，此处以 hash 形式传输，如 {“NODE_ENV”: "production", “DEBUG”: “info”, "my_number":1}</td>
     </tr>
 </table>
     
