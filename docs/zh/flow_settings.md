@@ -10,6 +10,6 @@ flow.ci 将整个工作流插件化，不论是执行的每个步骤还是整个
 
 flow 设置 & 使用详情可参考以下文档：
 
-- [插件的添加，修改，删除](./5.1 插件的添加，修改，删除.md)
-- [插件的 Inputs & Outputs](./5.2 插件的 Inputs & Outputs.md)
-- [插件列表](./5.3 插件列表.md)
+  - [插件的添加，修改，删除](./add_plugin_edit_delete.html)
+  - [插件的 Inputs & Outputs](./plugin_inputs_outputs.html)
+  - [插件列表](./plugin_list.html)
