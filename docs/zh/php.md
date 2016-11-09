@@ -25,7 +25,7 @@
 ### 插件
 
 <b>基础插件：</b>
-- [Initalize](./plugins/initalize_plugin.html)：初始化环境
+- [Initalize](./plugins_initalize_plugin.html)：初始化环境
 - [Variables](./Plugins/5.3.2 Variables 插件.html)：环境变量设置
 - [Cache](./Plugins/5.3.3 Cache 插件.html)：通过缓存，提高构建速度
 - [Git Clone](./Plugins/5.3.4 Git Clone 插件.html)：从 git 拉取最新代码
