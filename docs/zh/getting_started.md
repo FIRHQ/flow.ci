@@ -34,10 +34,10 @@
 
 你可以通过以下四种方式触发构建：
 
-- [手动构建](./3.1 手动 Build.md)
-- [git 的 push 请求](./3.2 git 的 push 请求触发 Build.md)
-- [pull request 请求](./3.3 Pull Request 触发 Build .md)
-- [每日构建](./3.4 每日构建.md)
+- 1.[手动 Build](./manual_build.html)
+- 2.[git 的 push 请求](./triggering_build_with_git_push.html)
+- 3.[pull request 请求](./triggering_build_with_pull_request.html)
+- 4.[每日构建](./daily_build.html)
 
 ### flow.ci 当前支持的语言：
 
