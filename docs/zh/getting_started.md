@@ -10,9 +10,9 @@
 
 可以根据你的代码托管服务，选择：
 
-- [创建 GitHub 项目](./2.1 创建 GitHub 项目.md)
-- [创建 Bitbucket 项目](./2.2 创建 Bitbucket 项目.md)
-- [创建 GitLab 项目](./2.3 创建 GitLab 项目.md)
+- [创建 GitHub 项目](./create_a_github_project.html)
+- [创建 Bitbucket 项目](./create_a_bitbucket_project.html)
+- [创建 GitLab 项目](./create_a_gitlab_project.html)
 
 <b> 第二步：设置 flow (可选)</b>
 
