@@ -26,9 +26,9 @@
 
 详细的 flow 设置方法可参考：
 
-  - [插件的添加，修改，删除](./5.1 插件的添加，修改，删除.md)
-  - [插件的 Inputs & Outputs](./5.2 插件的 Inputs & Outputs.md)
-  - [插件列表](./5.3 插件列表.md)
+  - [插件的添加，修改，删除](./add_plugin_edit_delete.html)
+  - [插件的 Inputs & Outputs](./plugin_inputs_outputs.html)
+  - [插件列表](./plugin_list.html)
 
 <b> 第三步：构建 Build</b>
 
@@ -41,11 +41,12 @@
 
 ### flow.ci 当前支持的语言：
 
-- [PHP](./4.1 PHP.md)
-- [Java for Android](./4.2 Java for Android.md)
-- [Node.js](./4.3 Nodejs.md)
-- [Ruby](./4.4 Ruby.md)
-- [Python](./4.5 Python.md)
+- [PHP](./php.html)
+- [Java for Android](./java_for_android.html)
+- [Nodejs](./nodejs.html)
+- [Ruby](./ruby.html)
+- [Python](./python.html)
+
 
 
 
