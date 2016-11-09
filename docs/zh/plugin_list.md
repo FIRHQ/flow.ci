@@ -2,38 +2,38 @@
 
 ### 基础插件：
 
-- [Initalize](./Plugins/5.3.1 Initalize 插件.md)：初始化环境
-- [Variables](./Plugins/5.3.2 Variables 插件.md)：环境变量设置
-- [Cache](./Plugins/5.3.3 Cache 插件.md)：通过缓存，提高构建速度
-- [Git Clone](./Plugins/5.3.4 Git Clone 插件.md)：从 git 拉取最新代码
-- [Install](./Plugins/5.3.5 Install 插件.md)：安装依赖
-- [Test](./Plugins/5.3.6  Test 插件.md)：执行单元测试
-- [Build](./Plugins/5.3.8 Build 插件.md):编译项目
+- [Initalize](./Plugins/5.3.1 Initalize 插件.html)：初始化环境
+- [Variables](./Plugins/5.3.2 Variables 插件.html)：环境变量设置
+- [Cache](./Plugins/5.3.3 Cache 插件.html)：通过缓存，提高构建速度
+- [Git Clone](./Plugins/5.3.4 Git Clone 插件.html)：从 git 拉取最新代码
+- [Install](./Plugins/5.3.5 Install 插件.html)：安装依赖
+- [Test](./Plugins/5.3.6  Test 插件.html)：执行单元测试
+- [Build](./Plugins/5.3.8 Build 插件.html):编译项目
 
 ### 数据库插件：
-- [MySQL Database](./Plugins/5.3.9 MySQL Database.md)
-- [MongoDB Database](./Plugins/5.3.10 MongoDB Database.md)
-- [Redis Database](./Plugins/5.3.11 Redis Database.md)
+- [MySQL Database](./Plugins/5.3.9 MySQL Database.html)
+- [MongoDB Database](./Plugins/5.3.10 MongoDB Database.html)
+- [Redis Database](./Plugins/5.3.11 Redis Database.html)
 
 ### 消息通知插件：
-- [Email Sender](./Plugins/5.3.12 Email Sender 插件.md)：邮件通知
-- [Slack Notification](./Plugins/5.3.13 slack notification 插件.md)：Slack 消息通知
+- [Email Sender](./Plugins/5.3.12 Email Sender 插件.html)：邮件通知
+- [Slack Notification](./Plugins/5.3.13 slack notification 插件.html)：Slack 消息通知
 
 ### 代码检测插件：
 
-- [PHP CoderSniffer ](./Plugins/5.3.14 PHP CoderSniffer 插件.md)：PHP 代码质量检查
-- [Code Analyzer](./9.9 Waiting.md)：Java 代码质量检查
-- [Infer Analyzer](./9.9 Waiting.md):Java 代码质量检查
-- [Eslint](./Plugins/5.3.17 Eslint 插件.md):Nodejs 代码质量检查
-- [Eslint Render](./Plugins/5.3.18 Eslint Render 插件.md)：Nodejs 代码质量检查
-- [Ruby Analyzer](./Plugins/5.3.19 Ruby Analyzer 插件.md)：Ruby 代码质量检查
-- [Ruby Analyzer Details](./Plugins/5.3.20 Ruby Analyzer Details 插件.md)：Ruby 代码质量检查
-- [PEP8 Analyzer](./9.9 Waiting.md)：Python 代码质量检查
-- [Quality Analyzer](./9.9 Waiting.md)：Python 代码质量检查
+- [PHP CoderSniffer ](./Plugins/5.3.14 PHP CoderSniffer 插件.html)：PHP 代码质量检查
+- [Code Analyzer](./waiting.html)：Java 代码质量检查
+- [Infer Analyzer](./waiting.html):Java 代码质量检查
+- [Eslint](./Plugins/5.3.17 Eslint 插件.html):Nodejs 代码质量检查
+- [Eslint Render](./Plugins/5.3.18 Eslint Render 插件.html)：Nodejs 代码质量检查
+- [Ruby Analyzer](./Plugins/5.3.19 Ruby Analyzer 插件.html)：Ruby 代码质量检查
+- [Ruby Analyzer Details](./Plugins/5.3.20 Ruby Analyzer Details 插件.html)：Ruby 代码质量检查
+- [PEP8 Analyzer](./waiting.html)：Python 代码质量检查
+- [Quality Analyzer](./waiting.html)：Python 代码质量检查
 
 ### 第三方插件：
-- [fir.im Uploader](./Plugins/5.3.23 fir.im Uploader 插件.md)：将生成的 .ipa 或.apk 上传到 fir.im
-- [qiniu Upload](./Plugins/5.3.24 qiniu Upload 插件.md):  上传文件到七牛
+- [fir.im Uploader](./Plugins/5.3.23 fir.im Uploader 插件.html)：将生成的 .ipa 或.apk 上传到 fir.im
+- [qiniu Upload](./Plugins/5.3.24 qiniu Upload 插件.html):  上传文件到七牛
 
 ### 自定义插件：
-- [Custom Script](./Plugins/5.3.25 Custom Script 插件.md)：自定义脚本，通过脚本完成定制化需求
+- [Custom Script](./Plugins/5.3.25 Custom Script 插件.html)：自定义脚本，通过脚本完成定制化需求
