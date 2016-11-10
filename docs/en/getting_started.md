@@ -48,10 +48,10 @@ Technically, each step is a plugin. You can add and remove them with a few click
 
 You can trigger builds in four ways:
 
-- [Manual](./3.1 Manual Build.md)
-- [Git push](./3.2 Triggering build with git push.md)
-- [Pull request](./3.3 Triggering build with pull request.md)
-- [Daily build](./3.4 Daily build.md)
+- [Manual](./manual_build.md)
+- [Git push](./triggering_build_with_git_push.md)
+- [Pull request](./triggering_build_with_pull_request.md)
+- [Daily build](./daily_build.md)
 
 ### Currently supported languages:
 
