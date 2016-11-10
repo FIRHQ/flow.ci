@@ -23,12 +23,39 @@
 * [flow 设置](./flow_settings.md)
   - [插件的添加，修改，删除](./add_plugin_edit_delete.md)
   - [插件的 Inputs & Outputs](./plugin_inputs_outputs.md)
-  - [插件列表](./plugin_list.md)
-
+  
 * [FAQ](./faq.md)
   - [如何找到 Provisioning Profiles & 证书文件](./upload_certificate_and_provisioning_profiles.md)
   - [flow.ci Android证书配置](./android_keystore_settings.md)
   - [手动触发构建 Webhook 地址](./webhook.md)
+  
+* [插件列表](./plugin_list.md)
+  - [Initalize](./plugins_initalize.html)
+  - [Variables](./plugins_variables.html)
+  - [Cache](./plugins_cache.html)
+  - [Git Clone](./plugins_git_clone.html)
+  - [Install](./plugins_install.html)
+  - [Test](./plugins_test.html)
+  - [Build](./plugins_build.html)
+  - [MySQL Database](./plugins_mysql_database.html)
+  - [MongoDB Database](./plugins_mongodb_database.html)
+  - [Redis Database](./plugins_redis_database.html)
+  - [Email Sender](./plugins_email_sender.html)
+  - [Slack Notification](./plugins_slack_notification.html)
+  - [PHP CoderSniffer ](./plugins_php_coderSniffer.html)
+  - [Code Analyzer](./waiting.html)
+  - [Infer Analyzer](./waiting.html)
+  - [Eslint](./plugins_eslint.html)
+  - [Eslint Render](./plugins_eslint_render.html)
+  - [Ruby Analyzer](./plugins_ruby_analyzer.html)
+  - [Ruby Analyzer Details](./plugins_ruby_analyzer_details.html)
+  - [PEP8 Analyzer](./waiting.html)
+  - [Quality Analyzer](./waiting.html)
+  - [fir.im Uploader](./plugins_firim_uploader.html)
+  - [qiniu Upload](./plugins_qiniu_upload.html)
+  - [Custom Script](./plugins_custom_script.html)
+
+
   
 * [服务协议](./term.md)
 
