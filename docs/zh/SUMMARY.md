@@ -43,7 +43,7 @@
   - [Redis Database](./plugins_redis_database.md)
   - [Email Sender](./plugins_email_sender.md)
   - [Slack Notification](./plugins_slack_notification.md)
-  - [PHP CoderSniffer ](./plugins_php_coderSniffer.md)
+  - [PHP CoderSniffer ](./plugins_php_codersniffer.md)
   - [Code Analyzer](./waiting.md)
   - [Infer Analyzer](./waiting.md)
   - [Eslint](./plugins_eslint.md)
