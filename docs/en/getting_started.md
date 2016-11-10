@@ -24,9 +24,9 @@ If this is done, you are ready to go.
 
 Select the hosting service of your project: 
 
-- [Create a GitHub project](./2.1 Create a GitHub project.md)
-- [Create a Bitbucket project](./2.2 Create a Bitbucket project.md)
-- [Create a GitLab project](./2.3 Create a GitLab project.md)
+- [Create a GitHub project](./create_a_github_project.md)
+- [Create a Bitbucket project](./create_a_bitbucket_project.md)
+- [Create a GitLab project](./create_a_gitlab_project.md)
 
 <b> Step 2: Flow setup (optional)</b>
 
