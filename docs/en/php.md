@@ -24,7 +24,7 @@ flow.ci supports several recent versions of php as well as multiple frameworks, 
 
 ### Available plugins:
 
-<b>Basics:</b>
+<b>Basics plugins:</b>
 - [Initalize](./plugins_initialize.html)：environment initialization 
 - [Variables](./plugins_variables.html)：set environment variables
 - [Cache](./plugins_cache.html)：faster building
@@ -32,12 +32,12 @@ flow.ci supports several recent versions of php as well as multiple frameworks, 
 - [Install](./plugins_install.html)：install dependencies
 - [Test](./plugins_test.html)：perform unit test
 
-<b>Databases:</b>
+<b>Databases plugins:</b>
 - [MySQL Database](./plugins_mysql_database.html)
 - [MongoDB Database](./plugins_mongodb_database.html)
 - [Redis Database](./plugins_redis_database.html)
 
-<b>Message notifications:</b>
+<b>Message notifications plugins:</b>
 - [Email Sender](./plugins_email_sender.html)：sends email notification 
 - [slack notification](./plugins_slack_notification.html)：sends slack message notification
 
