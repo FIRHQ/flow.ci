@@ -2,10 +2,10 @@
 
 You can trigger builds in four ways:
 
-- [Manual](./3.1 Manual Build.md)
-- [Git push](./3.2 Triggering build with git push.md)
-- [Pull request](./3.3 Triggering build with pull request.md)
-- [Daily build](./3.4 Daily build.md)
+- [Manual](./manual_build.html)
+- [Git push](./triggering_build_with_git_push.html)
+- [Pull request](./triggering_build_with_pull_request.html)
+- [Daily build](./daily_build.html)
 
 After start building, you can see the status of your builds in the “Builds” menu. On the screenshot below you can see a list of builds, each color represents a different status of the Build:
 
