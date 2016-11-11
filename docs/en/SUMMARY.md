@@ -24,13 +24,13 @@
 * [flow settings](./flow_settings.md)
   - [Add plugin, modify, delete](./add_plugin_edit_delete.md)
   - [Plugin Inputs & Outputs](./plugin_inputs_outputs.md)
-  - [Plugin list](./plugin_list.md)
+
 
 * [FAQ](./faq.md)
   - [how to find certificates and provisioning profiles](./upload_certificate_and_provisioning_profiles.md)
   - [Manual Build Webhook](./webhook.md)
  
- * [Plugin list](./plugin_list.md)
+* [Plugin list](./plugin_list.md)
    - [Initalize](./plugins_nitialize.md)
    - [Variables](./plugins_variables.md)
    - [Cache](./plugins_cache.md)
