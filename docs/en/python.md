@@ -19,7 +19,7 @@ For Python projcets, flow.ci uses Pip as the default dependency management tool.
 
 ### Available plugins:
 
-<b>Basics:</b>
+<b>Basics plugins:</b>
 - [Initalize](./plugins_initialize.html)：environment initialization 
 - [Variables](./plugins_variables.html)：set environment variables
 - [Cache](./plugins_cache.html)：faster building
@@ -27,16 +27,16 @@ For Python projcets, flow.ci uses Pip as the default dependency management tool.
 - [Install](./plugins_install.html)：install dependencies
 - [Test](./plugins_test.html)：perform unit test
 
-<b>Databases:</b>
+<b>Databases plugins:</b>
 - [MySQL Database](./plugins_mysql_database.html)
 - [MongoDB Database](./plugins_mongodb_database.html)
 - [Redis Database](./plugins_redis_database.html)
 
-<b>Message notifications:</b>
+<b>Message notifications plugins:</b>
 - [Email Sender](./plugins_email_sender.html)：sends email notification 
 - [slack notification](./plugins_slack_notification.html)：sends slack message notification
 
-<b>Code detections:</b>
+<b>Code detections plugins:</b>
 - [PEP8 Analyzer](./waiting.html)：code quality analyzer for Python
 - [Quality Analyzer](./waiting.html)：code quality analyzer for Python
 
