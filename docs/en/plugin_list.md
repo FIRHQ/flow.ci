@@ -1,7 +1,7 @@
 # 5.3 Plugin list
 
 ### Basics  plugins:
-- [Initalize](./plugins_nitialize.html)：environment initialization 
+- [Initalize](./plugins_initialize.html)：environment initialization 
 - [Variables](./plugins_variables.html)：set environment variables
 - [Cache](./plugins_cache.html)：faster building
 - [Git Clone](./plugins_git_clone.html)：pull the latest code from git
