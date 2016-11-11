@@ -10,6 +10,6 @@ In a flow every step is a plugin. You can easily add, delete, and change their o
 
 If you want to learn more about plugins and flow settings, the details are explained at links below:
 
-  - [Add plugin, edit, delete](./5.1 Add plugin, edit, delete.md)
-  - [Plugin Inputs & Outputs](./5.2 Plugin Inputs & Outputs.md)
-  - [Plugin list](./5.3 Plugin list.md)
+  - [Add plugin, edit, delete](./add_plugin_edit_delete.html)
+  - [Plugin Inputs & Outputs](./plugin_inputs_outputs.html)
+  - [Plugin list](./plugin_list.md)
