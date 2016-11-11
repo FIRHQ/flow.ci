@@ -1,4 +1,4 @@
-5.1 How to add, delete and edit plugins?
+# 5.1 How to add, delete and edit plugins?
 
 ###    How to add plugins?
 
