@@ -16,7 +16,7 @@
 
 * [Supported languages](./supported_languages.md)
   - [PHP](./php.md)
-  - [Java for Android](./java_for_Android.md)
+  - [Java for Android](./java_for_android.md)
   - [NodeJS](./nodejs.md)
   - [Ruby](./ruby.md)
   - [Python](./python.md)
