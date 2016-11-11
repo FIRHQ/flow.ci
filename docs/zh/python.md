@@ -17,32 +17,31 @@
 
 ### 插件
 
-<b>基础插件：</b>
+### 基础插件：
 
-- [Initalize](./plugins_initalize_plugin.md)：初始化环境
-- [Variables](./Plugins/5.3.2 Variables 插件.html)：环境变量设置
-- [Cache](./Plugins/5.3.3 Cache 插件.html)：通过缓存，提高构建速度
-- [Git Clone](./Plugins/5.3.4 Git Clone 插件.html)：从 git 拉取最新代码
-- [Install](./Plugins/5.3.5 Install 插件.html)：安装依赖
-- [Test](./Plugins/5.3.6  Test 插件.html)：执行单元测试
+- [Initalize](./plugins_initalize.html)：初始化环境
+- [Variables](./plugins_variables.html)：环境变量设置
+- [Cache](./plugins_cache.html)：通过缓存，提高构建速度
+- [Git Clone](./plugins_git_clone.html)：从 git 拉取最新代码
+- [Install](./plugins_install.html)：安装依赖
+- [Test](./plugins_test.html)：执行单元测试
 
-<b>数据库插件：</b>
-- [MySQL Database](./Plugins/5.3.9 MySQL Database.html)
-- [MongoDB Database](./Plugins/5.3.10 MongoDB Database.html)
-- [Redis Database](./Plugins/5.3.11 Redis Database.html)
+### 数据库插件：
+- [MySQL Database](./plugins_mysql_database.html)
+- [MongoDB Database](./plugins_mongodb_database.html)
+- [Redis Database](./plugins_redis_database.html)
 
-<b>消息通知插件：</b>
-- [Email Sender](./Plugins/5.3.12 Email Sender 插件.html)：邮件通知
-- [Slack Notification](./Plugins/5.3.13 slack notification 插件.html)：Slack 消息通知
+### 消息通知插件：
+- [Email Sender](./plugins_email_sender.html)：邮件通知
+- [Slack Notification](./plugins_slack_notification.html)：Slack 消息通知
 
-<b>代码检测插件：</b>
-
+### 代码检测插件：
 - [PEP8 Analyzer](./waiting.html)：Python 代码质量检查
 - [Quality Analyzer](./waiting.html)：Python 代码质量检查
 
-<b>第三方插件：</b>
-- [fir.im Uploader](./Plugins/5.3.23 fir.im Uploader 插件.html)：将生成的 .ipa 或.apk 上传到 fir.im
-- [qiniu Upload](./Plugins/5.3.24 qiniu Upload 插件.html):  上传文件到七牛
+### 第三方插件：
+- [fir.im Uploader](./plugins_firim_uploader.html)：将生成的 .ipa 或.apk 上传到 fir.im
+- [qiniu Upload](./plugins_qiniu_upload.html):  上传文件到七牛
 
-<b>自定义插件：</b>
-- [Custom Script](./Plugins/5.3.25 Custom Script 插件.html)：自定义脚本，通过脚本完成定制化需求
+### 自定义插件：
+- [Custom Script](./plugins_custom_script.html)：自定义脚本，通过脚本完成定制化需求
