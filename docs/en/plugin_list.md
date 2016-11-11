@@ -1,4 +1,4 @@
-### 5.3 Plugin list
+# 5.3 Plugin list
 
 <b>Basic plugins:</b>
 - [Initalize](./Plugins/5.3.1 Initialize plugin.md)：environment initialization 
