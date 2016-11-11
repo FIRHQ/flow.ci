@@ -31,7 +31,7 @@
   - [Manual Build Webhook](./webhook.md)
  
 * [Plugin list](./plugin_list.md)
-   - [Initalize](./plugins_nitialize.md)
+   - [Initalize](./plugins_initialize.md)
    - [Variables](./plugins_variables.md)
    - [Cache](./plugins_cache.md)
    - [Git Clone](./plugins_git_clone.md)
