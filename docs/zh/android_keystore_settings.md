@@ -1,5 +1,11 @@
 # flow.ci Android证书配置
 
+## 查看Android证书文件信息
+```
+$ keytool -list -v -keystore $YUOR_KEY_PATH
+
+```
+
 ## 在**flow.ci**上传证书
 ---
 * 第一次Android 项目 选择 Android模板 创建后，会看到如图上传证书页面:
