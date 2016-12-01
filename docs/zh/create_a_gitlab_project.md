@@ -18,7 +18,7 @@
 
 <b>GitLab Host : </b>
 
-如果使用的是 online 的 GitLab ，直接添加  https://gitlab.com/ 即可；
+如果使用的是 online 的 GitLab ，直接添加  https://gitlab.com 即可；
 
 如果使用的是私有部署的 GitLab，请填写私有部署的访问地址。
 
@@ -29,6 +29,8 @@
 如果是私有部署的 GitLab，在 Profile Settings --> Account 中查看。
 
 <img src="https://dn-shimo-image.qbox.me/68jOAX68EOwkXj5A.png!thumbnail" width=680>
+
+*提示: 如果GitLab部署的网址不支持https, flow.ci不能自动添加deploy key 和 webhook到GitLab中，所以需要登录GitLab后手动添加，以避免Git clone 时出现Permission Denied的错误, 以及无法接收到仓库的Push/Pull Request等事件。*
 
 <b>第五步：选择 GitLab 账号</b>
 
