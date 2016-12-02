@@ -29,6 +29,7 @@
 * [FAQ](./faq.md)
   - [how to find certificates and provisioning profiles](./upload_certificate_and_provisioning_profiles.md)
   - [Manual Build Webhook](./webhook.md)
+  - [Manual Add Webhook to Git project](./webhook_git.md)
  
 * [Plugin list](./plugin_list.md)
    - [Initalize](./plugins_initialize.md)
