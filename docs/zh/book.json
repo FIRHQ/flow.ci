@@ -1,0 +1,41 @@
+{
+    "author": "flow.ci <dev@flow.ci>",
+    "description": "flow.ci 使用文档",
+    
+    "extension": null,
+    "generator": "site",
+    "gitbook":">= 3.0.0",
+    "links": {
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": null,
+            "weibo": null
+        },
+        "sidebar": {
+            "返回 flow.ci": "http://flow.ci"
+        }
+    },
+    "output": null,
+    "pdf": {
+        "fontSize": 12,
+        "footerTemplate": null,
+        "headerTemplate": null,
+        "margin": {
+            "bottom": 36,
+            "left": 62,
+            "right": 62,
+            "top": 36
+        },
+        "pageNumbers": false,
+        "paperSize": "a4"
+    },
+    "plugins": [],
+    "title": "flow.ci 使用文档",
+    "introduction": {
+        "path": "your introduction path",
+        "title": "your introduction title"
+    },
+    "variables": {}
+}
