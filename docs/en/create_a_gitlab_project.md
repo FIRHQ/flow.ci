@@ -29,6 +29,7 @@ If you are using the online hosted version, you can access your private token by
 If you are using a privately hosted version of GitLab, you can find the private token in  Profile Settings -> Account.
 
 <img src="https://dn-shimo-image.qbox.me/68jOAX68EOwkXj5A.png!thumbnail" width=680>
+*hint: flow.ci doesn't support add Deploy Key and Webhook into GitLab project automaticlly when the GitLab site is not https. The 'Permission Denied' error will be occured and Push/Pull Request events cannot be recevied if Deploy Key and Webhook not added to flow.ci project. <a href='http://docs.flow.ci/en/deploy_key.html'>How to add Deploy Key to Git repository manually</a> <a href='http://docs.flow.ci/en/webhook_git.html'>How to add Webhook to Git repository manually</a>*
 
 <b>Step 5: Select GitLab account.</b>
 

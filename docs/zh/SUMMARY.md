@@ -29,6 +29,7 @@
   - [flow.ci Android证书配置](./android_keystore_settings.md)
   - [手动触发构建 Webhook 地址](./webhook.md)
   - [手动添加 Webhook 地址](./webhook_git.md)
+  - [手动添加 Deploy Key](./deploy_key.md)
   
 * [插件列表](./plugin_list.md)
 
