@@ -30,7 +30,7 @@
 
 <img src="https://dn-shimo-image.qbox.me/68jOAX68EOwkXj5A.png!thumbnail" width=680>
 
-*提示: 如果GitLab部署的网址不支持https, flow.ci不能自动添加 Deploy Key 和 Webhook到 GitLab 中，所以需要登录 GitLab 后手动添加，以避免 Git clone 时出现 'Permission Denied' 的错误, 以及无法接收到仓库的 'Push/Pull Request' 等事件。<a href='http://docs.flow.ci/zh/deploy_key.html'>如何手工添加  Deploy Key</a> <a href='http://docs.flow.ci/zh/webhook_git.html'>如何手工添加 Webhook</a>*
+*提示: 如果 GitLab 部署的网址不支持 https, flow.ci 不能自动添加 Deploy Key 和 Webhook到 GitLab 中，所以需要登录 GitLab 后手动添加，以避免 Git clone 时出现 'Permission Denied' 的错误, 以及无法接收到仓库的 'Push/Pull Request' 等事件。<a href='http://docs.flow.ci/zh/deploy_key.html'>如何手工添加 Deploy Key</a> <a href='http://docs.flow.ci/zh/webhook_git.html'>如何手工添加 Webhook</a>*
 
 <b>第五步：选择 GitLab 账号</b>
 
