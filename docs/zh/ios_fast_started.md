@@ -57,7 +57,8 @@ flow.ci 在创建 iOS 项目时，除了代码仓库的选择，还需要设置�
 点击 “开始构建”，构建你的第一个 Build
 
 <img src="https://dn-shimo-image.qbox.me/2Mc4XuFIz1ArvtDX/image.png!thumbnail" width=780>
+
 选择要构建的分支，点击 "构建"
 
-<img src="https://dn-shimo-image.qbox.me/7yyzyy5PZvIyM5SD.png!thumbnail" width=680>
+<img src="https://dn-shimo-image.qbox.me/9tFK8HFUxy8A1oHi/image.png!thumbnail" width=680>
 
