@@ -25,18 +25,17 @@ flow.ci 在创建 iOS 项目时，除了代码仓库的选择，还需要设置�
 
 ## 第二步：iOS 项目的基本设置
 
-配置 iOS 项目需要设置 Xcode 版本，证书内容和构建参数（选填）三部分
+配置 iOS 项目需要设置 Xcode 版本，证书内容和构建参数三部分
 
 - Xcode 版本：未选择时默认为 Xcode8，可根据需要修改设置
 
 <img src="https://dn-shimo-image.qbox.me/g2X4aDJJvXYo0T4w/image.png!thumbnail" width=780>
 
-- 上传证书 & Provisoning Profile：选择匹配的证书和 Provisioning Profile ，如何查找证书和 Provisioning Profile 可见文档：http://docs.flow.ci/zh/upload_certificate_and_provisioning_profiles.html
+- 上传证书 & Provisoning Profile：选择匹配的证书和 Provisioning Profile ，如何查找证书和 Provisioning Profile 可见文档：[如何找到 Provisioning Profiles & 证书文件](http://docs.flow.ci/zh/upload_certificate_and_provisioning_profiles.html)
 
 <img src="https://dn-shimo-image.qbox.me/xsMvkuPQ5BMxImo6/image.png!thumbnail" width=780>
 
-- 构建参数（非必填项）：用户构建打包
-
+- 构建参数（非必填项）：这些构建参数在打包时需要用到，如果只编译不打包可以不用填写
 <img src="https://dn-shimo-image.qbox.me/LrxUUlGktPQuLCqc/image.png!thumbnail" width=780>
 
   - <b>Workspace:</b>默认路径为项目根路径。如果 .xcworkspace 文件放在根路径下，直接添写 .xcworkspace 文件名称即可；如果不在根路径下，请填写完整文件路径。如：flow.ci.xcworkspace
