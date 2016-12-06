@@ -1,7 +1,7 @@
 # flow.ci 中文文档
 
 * [快速入门](./getting_started.md)
-
+ - [iOS 快速入门](./ios_fast_startted.md)
 * [创建项目](./create_project.md)
   - [创建 GitHub 项目](./create_a_github_project.md)
   - [创建 Bitbucket 项目](./create_a_bitbucket_project.md)
