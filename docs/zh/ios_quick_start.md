@@ -14,6 +14,7 @@ flow.ci 在创建 iOS 项目时，除了代码仓库的选择，还需要设置�
 <img src="https://dn-shimo-image.qbox.me/I2P92EOwas4cafx8/image.png!thumbnail" width=780>
 
 - 在模板中选择 iOS 模板，点击“使用”
+
 每种语言的默认模板中都有一个由多个插件组成的 flow (即在编译过程中会顺序执行的一系列脚本命令)
 
 <img src="https://dn-shimo-image.qbox.me/HGh2Fm8cZ2g3AFDR/image.png!thumbnail" width=780>
