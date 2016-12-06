@@ -22,6 +22,8 @@ If you are using the online hosted version of GitLab, you can directly add https
 
 If you are using a privately hosted version of GitLab, please enter your URL to access the private deployment. 
 
+*hint: GitLab needs to config external URL for internet access in privately hosted GitLab. For detail configuration please refer <a href='https://docs.gitlab.com/omnibus/settings/configuration.html#configuring-the-external-url-for-gitlab'>Configuring the external URL for GitLab</a>*
+
 <b>Private Token：</b>
 
 If you are using the online hosted version, you can access your private token by clicking on the following url https://gitlab.com/profile/account.
