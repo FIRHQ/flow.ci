@@ -10,6 +10,7 @@ flow.ci supports several recent versions of Node.js as well as multiple framewor
 - Node.js v0.12.2
 - Node.js v4.0.0
 - Node.js v5.2.0
+- Node.js v6.6.0
 
 
 ### Supported dependency management tool:
