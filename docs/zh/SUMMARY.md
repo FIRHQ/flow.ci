@@ -15,7 +15,7 @@
 
 * [支持语言](./supported_languages.md)
   - [PHP](./php.md)
-  - [Java for Android](./java_for_android.md)	
+  - [Java for Android](./java_for_android.md)
   - [Node.js](./nodejs.md)
   - [Ruby](./ruby.md)
   - [Python](./python.md)
@@ -23,14 +23,15 @@
 * [flow 设置](./flow_settings.md)
   - [插件的添加，修改，删除](./add_plugin_edit_delete.md)
   - [插件的 Inputs & Outputs](./plugin_inputs_outputs.md)
-  
+
 * [FAQ](./faq.md)
   - [如何找到 Provisioning Profiles & 证书文件](./upload_certificate_and_provisioning_profiles.md)
   - [flow.ci Android证书配置](./android_keystore_settings.md)
   - [手动触发构建 Webhook 地址](./webhook.md)
   - [手动添加 Webhook 地址](./webhook_git.md)
   - [手动添加 Deploy Key](./deploy_key.md)
-  
+    [如何获取git log作为changelog](./get_git_log_scripts.md)
+
 * [插件列表](./plugin_list.md)
 
   - [Initalize](./plugins_initalize.md)
@@ -57,7 +58,7 @@
   - [fir.im Uploader](./plugins_firim_uploader.md)
   - [qiniu Upload](./plugins_qiniu_upload.md)
   - [Custom Script](./plugins_custom_script.md)
-  
+
 * [服务协议](./term.md)
 
 * [隐私协议](./privacy.md)
