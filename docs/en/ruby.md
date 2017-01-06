@@ -12,6 +12,7 @@ flow.ci supports several recent versions of Ruby as well as multiple frameworks,
 - Ruby 2.1.2
 - Ruby 2.2.0
 - Ruby 2.2.2
+- Ruby 2.3.0
 
 ### Supported dependency management tool:
 

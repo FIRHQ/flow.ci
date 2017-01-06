@@ -6,6 +6,7 @@
 - Node.js  v0.12.2
 - Node.js  v4.0.0
 - Node.js  v5.2.0
+- Node.js v6.6.0
 
 ### 依赖安装
 
