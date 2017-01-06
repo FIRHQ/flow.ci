@@ -26,10 +26,11 @@
   
 * [FAQ](./faq.md)
   - [如何找到 Provisioning Profiles & 证书文件](./upload_certificate_and_provisioning_profiles.md)
-  - [flow.ci Android证书配置](./android_keystore_settings.md)
+  - [flow.ci Android 证书配置](./android_keystore_settings.md)
   - [手动触发构建 Webhook 地址](./webhook.md)
   - [手动添加 Webhook 地址](./webhook_git.md)
   - [手动添加 Deploy Key](./deploy_key.md)
+  - [配置项目路径](./config_project_path.md)
   
 * [插件列表](./plugin_list.md)
 
