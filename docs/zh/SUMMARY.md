@@ -30,7 +30,7 @@
   - [手动触发构建 Webhook 地址](./webhook.md)
   - [手动添加 Webhook 地址](./webhook_git.md)
   - [手动添加 Deploy Key](./deploy_key.md)
-    [如何获取git log作为changelog](./get_git_log_scripts.md)
+    [如何获取git log作为更新日志](./get_git_log_scripts.md)
   - [配置项目路径](./config_project_path.md)
 
 * [插件列表](./plugin_list.md)
