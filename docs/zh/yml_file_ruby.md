@@ -11,17 +11,17 @@ version: 2.3.0
 
 ```
 
-### 插件选择
-
-Git：
-
-* `git` 从 Git 仓库中克隆代码
+### 可支持的插件
 
 Ruby: 
 
 * `ruby_init` Ruby 环境的初始化
 * `ruby_install` 安装 Gem 包
 * `ruby_test` 执行测试
+
+Git：
+
+* `git` 从 Git 仓库中克隆代码
 
 代码检查:
 
