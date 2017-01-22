@@ -78,7 +78,13 @@ flows:
 `- flows:` 在工作流的配置中，可定义工作流的
 
 * 名称 `name: default` (目前为 beta 阶段，只支持名称为 `default` 的工作流)
-* 语言 `language: php | android | python | objc | ruby | nodejs`
+* 语言 `language:`
+  - `php`
+  - `android`
+  - `python`
+  - `objc`
+  - `ruby`
+  - `nodejs`
 * 语言版本 `version: ` 具体版本定义详见支持语言
 * 环境变量 (可选项) `env: `, 多个环境变量在同一行时，以 `,` 分割
 * 触发器 `trigger: `
