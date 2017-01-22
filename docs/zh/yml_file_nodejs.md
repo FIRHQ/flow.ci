@@ -1,7 +1,7 @@
 ## YML 配置文件构建 Node.js 项目（beta）
 
 ### 支持的 Node.js 版本
-目前所支持的 Ruby VM 的版本有：
+目前所支持的 Node.js 的版本有：
 
 * `v6.6.0`
 * `v5.2.0`
@@ -20,7 +20,7 @@ version: v6.6.0
 
 ### 可支持的插件
 
-Ruby: 
+Node.js: 
 
 * `nodejs_init` Node.js 环境的初始化
 * `nodejs_install` 安装 npm 包依赖
