@@ -21,16 +21,11 @@ Objective C:
 
 * `objc_init` iOS 项目初始化
 * `objc_build` 编译 iOS 项目
-
-   输入参数:
-	> `FLOW_IOS_COMPILE_WORKSPACE` .xcworkspace 的文件名称
-	
-	> `FLOW_IOS_COMPILE_PROJECT` .xccodeproj 的文件名称
-	
-	> `FLOW_IOS_COMPILE_SCHEME` schema 的名称
-	
-	> `FLOW_IOS_COMPILE_CONFIGURATION` 自定义的名称或者 Debug/Release
-	
+   - 输入参数 
+		* `FLOW_IOS_COMPILE_WORKSPACE` .xcworkspace 的文件名称
+		* `FLOW_IOS_COMPILE_PROJECT` .xccodeproj 的文件名称
+		* `FLOW_IOS_COMPILE_SCHEME` schema 的名称
+		* `FLOW_IOS_COMPILE_CONFIGURATION` 自定义的名称或者 Debug/Release
 * `objc_install` 安装 Pod 依赖
 * `objc_archive` 打包 .ipa 文件
 
