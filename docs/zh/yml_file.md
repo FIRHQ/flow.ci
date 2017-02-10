@@ -177,14 +177,29 @@ step 中使用自定义脚本，需要定义 `scripts: ` 属性
 
 #### 多个工作流执行顺序的定义:
 
-当在配置文件中定义了 `flow_relation:` 后，flow.ci 会根据所定义的顺序执行工作流。
+当在配置文件根节点中定义了 `flow_relation:` 后，flow.ci 会根据所定义的顺序执行工作流。
+
+```yaml
+# 工作流执行顺序的定义
+
+flow_relation:
+ - sequence:
+   - flow-1 # 工作流名称
+   - flow-2 # 工作流名称
+
+flows:
+ - name: flow-1
+   ...
+ - name: flow-2
+   ...
+```
 
 两种基本的执行顺序:
 
  - 串行: `sequence:` 工作流按顺序执行
  - 并行: `parallel:` 工作流同时执行
 
-*注意: 必须以 `sequence:` 为开始顺序，否则会出现配置文件解析失败*
+> 注意: 必须以 `sequence:` 为开始顺序，并且工作流的名称要和所定义的工作流相同，否则会出现配置文件解析失败
 
 串行与并行可以互相嵌套, 构成任意的执行顺序，例如下图:
 
@@ -214,18 +229,22 @@ flow_relation:
 
 ##### Example:
 
-事例中定义了4个工作流分别是 flow-1, flow-2, flow-3 和 flow-4
+**整个执行顺序如下状态图所示:**
+
+<img src="https://dn-shimo-image.qbox.me/Y3XuBRmaHxgLRjey/Screen%20Shot%202017-02-09%20at%207.06.40%20PM.png!thumbnail" width=780>
+
+**描述:**
+
+例子中定义了4个工作流分别是 flow-1, flow-2, flow-3 和 flow-4
 
 flow-1 和 flow-2 为起始的工作流，并行执行，当有 Push，PR 等触发其中任意一个工作流时，整个工作流会按照配置文件中的顺序执行。(当有 Push， PR等触发 flow-3 或 flow-4 时，因为不是开始的工作流，未达到执行条件，所以整个的工作流不会执行)
 
 当 flow-1 和 flow-2 执行完成后，会开始执行 flow-3.
+
 当 flow-3 执行完成后，执行 flow-4.
 
-整个执行顺序如下状态图所示:
 
-<img src="https://dn-shimo-image.qbox.me/Y3XuBRmaHxgLRjey/Screen%20Shot%202017-02-09%20at%207.06.40%20PM.png!thumbnail" width=780>
-
-事例代码:
+**事例代码:**
 
 ```
 # flow relation definition
