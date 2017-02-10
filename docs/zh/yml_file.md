@@ -177,7 +177,7 @@ step 中使用自定义脚本，需要定义 `scripts: ` 属性
 
 <br/>
 - - -
-### 多个工作流执行顺序的定义:
+### 工作流的执行顺序:
 
 当在配置文件根节点中定义了 `flow_relation:` 后，flow.ci 会根据所定义的顺序执行工作流。
 
@@ -272,7 +272,8 @@ flows:
     ......
 ```
 
-
+<br/>
+- - -
 ### 支持语言
 - [PHP](./yml_file_php.md)
 - [Java for Android](./yml_file_android.md)
