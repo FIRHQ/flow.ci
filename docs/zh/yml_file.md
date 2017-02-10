@@ -74,7 +74,9 @@ flows:
           - echo $FLOW_ENV_1
 ```
 
-### Flow 的定义
+<br/>
+- - -
+### 工作流的定义
 `- flows:` 在工作流的配置中，可定义工作流的
 
 * 名称 `name: default` (目前为 beta 阶段，只支持名称为 `default` 的工作流)
@@ -103,7 +105,7 @@ flows:
   	  - FLOW_ENV_3=xxx
 ```
 
-#### Flow 触发器
+#### 触发器
 
 触发当前工作流的条件: 
 
@@ -121,7 +123,7 @@ flows:
       pull_request: true
 ```
 
-#### Flow 结束后通知
+#### 消息通知
 
 配置工作流结束后的通知，目前可以支持 email 和 slack 的成功及失败列表
 
@@ -141,7 +143,7 @@ flows:
           - https://hooks.slack.com/services/xxx/xxx/xxx
 ```
 
-#### Flow 中 Step 的定义
+#### Step 的定义
 
 `steps: ` 可以定义一个工作流中的多个步骤，每个 step 有如下属性:
 
@@ -171,6 +173,82 @@ step 中使用自定义脚本，需要定义 `scripts: ` 属性
         scripts:
           - mvn clean
           - mvn install
+```
+
+#### 多个工作流执行顺序的定义:
+
+当在配置文件中定义了 `flow_relation:` 后，flow.ci 会根据所定义的顺序执行工作流。
+
+两种基本的执行顺序:
+
+ - 串行: `sequence:` 工作流按顺序执行
+ - 并行: `parallel:` 工作流同时执行
+
+*注意: 必须以 `sequence:` 为开始顺序，否则会出现配置文件解析失败*
+
+串行与并行可以互相嵌套, 构成任意的执行顺序，例如下图:
+
+<img src="https://dn-shimo-image.qbox.me/f36BDKo3Dnwa1pCi/mutiple_flow_definition.png!thumbnail" width=780>
+
+其描配置述语言为:
+
+```yaml
+flow_relation:
+  - sequence:
+    - flow-1
+    - flow-2
+    - parallel:
+      - flow-3
+      - sequence:
+        - flow-4
+        - flow-5
+      - flow-6
+    - flow-7
+```
+
+
+##### 执行触发条件
+
+只当起始的工作流收到 Push，PR 等事件后，才会执行整个流程
+
+
+##### Example:
+
+事例中定义了4个工作流分别是 flow-1, flow-2, flow-3 和 flow-4
+
+flow-1 和 flow-2 为起始的工作流，并行执行，当有 Push，PR 等触发其中任意一个工作流时，整个工作流会按照配置文件中的顺序执行。(当有 Push， PR等触发 flow-3 或 flow-4 时，因为不是开始的工作流，未达到执行条件，所以整个的工作流不会执行)
+
+当 flow-1 和 flow-2 执行完成后，会开始执行 flow-3.
+当 flow-3 执行完成后，执行 flow-4.
+
+整个执行顺序如下状态图所示:
+
+<img src="https://dn-shimo-image.qbox.me/Y3XuBRmaHxgLRjey/Screen%20Shot%202017-02-09%20at%207.06.40%20PM.png!thumbnail" width=780>
+
+事例代码:
+
+```
+# flow relation definition
+flow_relation:
+ - sequence:
+   - parallel:
+     - flow-1
+     - flow-2
+   - flow-3
+   - flow-4
+
+flows:
+  - name: flow-1
+    ......
+   
+  - name: flow-2
+    ......
+    
+  - name: flow-3
+    ......
+    
+  - name: flow-4
+    ......
 ```
 
 
