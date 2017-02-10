@@ -24,7 +24,7 @@
   - [插件的添加，修改，删除](./add_plugin_edit_delete.md)
   - [插件的 Inputs & Outputs](./plugin_inputs_outputs.md)
 
-* [Yml 配置文件(beta)](./yml_file.md)
+* [Yml 配置文件 (beta)](./yml_file.md)
 	- [PHP](./yml_file_php.md)
 	- [Java for Android](./yml_file_android.md)
 	- [Node.js](./yml_file_nodejs.md)
