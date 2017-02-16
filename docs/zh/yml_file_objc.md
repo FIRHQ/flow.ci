@@ -41,7 +41,7 @@ Git：
 flows:
   - name: default
     language: objc
-	version: XCode8
+	version: Xcode8
 	env:
 	  - FLOW_PROJECT_PATH=./project_src
 
