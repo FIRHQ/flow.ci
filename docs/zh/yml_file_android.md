@@ -6,7 +6,7 @@
 
 ```yaml
 language: android
-version: jdk8
+version: jdk7
 ```
 
 * JDK 8: 
