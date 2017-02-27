@@ -2,11 +2,9 @@
 
 ### flow.ci 当前支持以下 PHP 版本：
 
-- PHP 5.5.31
+- PHP 5.4.45
 - PHP 5.5.32
-- PHP 5.6.17
-- PHP 5.6.8
-- PHP 7.0.2
+- PHP 5.6.18
 - PHP 7.0.3
 
 ### 支持 framework
