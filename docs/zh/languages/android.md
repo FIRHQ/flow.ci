@@ -106,16 +106,41 @@ flow.ci Android 运行环境默认提供了如下工具:
 - android-12
 - android-11
 - android-10
+- android-9
+- android-8
 - extra-android-support
 - extra-google-google_play_services
 - extra-google-m2repository
 - extra-android-m2repository
 
+## Andorid CI 中可使用的插件
+
+#### 基础：
+
+- [初始化](./plugins_initalize.html): 初始化 Android CI 环境并打印环境变量
+- [环境变量](./plugins_variables.html): 自定义的环境变量设置
+- [缓存](./plugins_cache.html)：缓存下载的 Gradle 依赖，以便下次构建时使用，减少下载时间
+- [Git 仓库克隆](./plugins_git_clone.html): 从 git 拉取最新代码
+- [编译](./plugins_build.html): Andorid 编译，默认使用 gradle build 命令
+- [安卓模拟器插件 - TODO] (./xxxx.html) 可以在 flow.ci 上跑测试
 
 
-## 从配置文件配置 Android 项目
+#### 消息通知：
+- [邮件消息插件](./plugins_email_sender.html)：邮件通知
+- [Slack 通知插件](./plugins_slack_notification.html)：Slack 消息通知
 
-[Example](https://github.com/flow-ci-plugin/yml_example/blob/master/.android-flow.yml)
+#### 代码检测：
+- [Code Analyzer](./waiting.html)：Java 代码质量检查
+- [Infer Analyzer](./waiting.html):Java 代码质量检查
+
+
+#### 第三方相关：
+- [fir.im 上传插件](./plugins_firim_uploader.html): 将生成的 .apk 上传到 fir.im
+- [七牛上传插件](./plugins_qiniu_upload.html): 将构建过程中的产物文件，上传到七牛云存储上
+
+#### 自定义插件：
+- [自定义脚本](./plugins_custom_script.html)：自定义脚本，通过脚本完成定制化需求
+
 
 
 ## Andorid 证书的配置
@@ -182,3 +207,10 @@ android {
 **flow.ci 中界面配置:**
 
 [Pic: 安卓 build 插件选择 build type]
+
+
+## 从配置文件配置 Android 项目
+
+如何通过配置文件构建 Android 项目，请参照 Yml 配置文件章节 [linke to yml for android]
+
+[Example](https://github.com/flow-ci-plugin/yml_example/blob/master/.android-flow.yml)
