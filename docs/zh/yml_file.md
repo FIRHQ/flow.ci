@@ -103,45 +103,7 @@ flows:
   	  - FLOW_ENV_3=xxx
 ```
 
-#### Flow 触发器
-
-触发当前工作流的条件: 
-
-* push: 定义分支触发条件，例如: 当前工作流触发条件为 develop 和 master 分支的 push
-* tag (可选项): 定义 tag 触发条件
-* pull_request (可选项): 是否接受 pull request 触发
-
-```yaml
-	trigger:
-      push:
-        - develop
-        - master
-      tag:
-        - '*'
-      pull_request: true
-```
-
-#### Flow 结束后通知
-
-配置工作流结束后的通知，目前可以支持 email 和 slack 的成功及失败列表
-
-```yaml
-	finalize:
-      email:
-        success:
-          - example1@flow.ci
-          - example2@flow.ci
-        failure:
-          - example1@flow.ci
-          - example2@flow.ci
-      slack:
-        success:
-          - https://hooks.slack.com/services/xxx/xxx/xxx
-        failure:
-          - https://hooks.slack.com/services/xxx/xxx/xxx
-```
-
-#### Flow 中 Step 的定义
+#### Step 的定义
 
 `steps: ` 可以定义一个工作流中的多个步骤，每个 step 有如下属性:
 
@@ -171,6 +133,44 @@ step 中使用自定义脚本，需要定义 `scripts: ` 属性
         scripts:
           - mvn clean
           - mvn install
+```
+
+### 触发器
+
+触发当前工作流的条件: 
+
+* push: 定义分支触发条件，例如: 当前工作流触发条件为 develop 和 master 分支的 push
+* tag (可选项): 定义 tag 触发条件
+* pull_request (可选项): 是否接受 pull request 触发
+
+```yaml
+	trigger:
+      push:
+        - develop
+        - master
+      tag:
+        - '*'
+      pull_request: true
+```
+
+### 结束后的消息通知
+
+配置工作流结束后的通知，目前可以支持 email 和 slack 的成功及失败列表
+
+```yaml
+	finalize:
+      email:
+        success:
+          - example1@flow.ci
+          - example2@flow.ci
+        failure:
+          - example1@flow.ci
+          - example2@flow.ci
+      slack:
+        success:
+          - https://hooks.slack.com/services/xxx/xxx/xxx
+        failure:
+          - https://hooks.slack.com/services/xxx/xxx/xxx
 ```
 
 
