@@ -214,3 +214,7 @@ android {
 如何通过配置文件构建 Android 项目，请参照 Yml 配置文件章节 [linke to yml for android]
 
 [Example](https://github.com/flow-ci-plugin/yml_example/blob/master/.android-flow.yml)
+
+## 如何本地调试 TODO:
+
+如果在 flow.ci 编译过程中遇到问题，请在项目路径下，命令行中使用 `gradlew build` 进行本地调试。如本地调试成功，flow.ci 上运行有问题的话，请通过 xxx 给我们反馈
