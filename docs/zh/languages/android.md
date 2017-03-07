@@ -123,11 +123,12 @@ flow.ci Android 运行环境默认提供了如下工具:
 - [Git 仓库克隆](./plugins_git_clone.html): 从 git 拉取最新代码
 - [编译](./plugins_build.html): Andorid 编译，默认使用 gradle build 命令
 - [安卓模拟器插件 - TODO] (./xxxx.html) 可以在 flow.ci 上跑测试
-
+- [自定义脚本](./plugins_custom_script.html)：自定义脚本，通过脚本完成定制化需求
 
 #### 消息通知：
 - [邮件消息插件](./plugins_email_sender.html)：邮件通知
 - [Slack 通知插件](./plugins_slack_notification.html)：Slack 消息通知
+- [钉钉通知插件](./plugins_slack_notification.html)：钉钉消息通知
 
 #### 代码检测：
 - [Code Analyzer](./waiting.html)：Java 代码质量检查
@@ -138,8 +139,6 @@ flow.ci Android 运行环境默认提供了如下工具:
 - [fir.im 上传插件](./plugins_firim_uploader.html): 将生成的 .apk 上传到 fir.im
 - [七牛上传插件](./plugins_qiniu_upload.html): 将构建过程中的产物文件，上传到七牛云存储上
 
-#### 自定义插件：
-- [自定义脚本](./plugins_custom_script.html)：自定义脚本，通过脚本完成定制化需求
 
 
 
