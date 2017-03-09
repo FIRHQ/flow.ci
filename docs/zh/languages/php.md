@@ -11,22 +11,18 @@
 [Pic 选择Git仓库]
 
 
-**2. 选择 Git 仓库中的 Android 项目**
+**2. 选择 Git 仓库中的 PHP 项目**
 
 
 [Pic 选择 PHP 的项目]
 
 
-**3. 选择默认的 Android 工作流**
+**3. 选择默认的 PHP 工作流**
 
-- 选择 JDK 的版本
+- 选择 PHP 的版本
 
 	[Pic] 
 	
-- 上传 Android 证书(可选)
-
-	[Pic]
-
 **4. 开始构建**
 
 [Pic 开始构建] 
@@ -67,7 +63,7 @@ flow.ci 的环境变量 (link to env variables)
 - [环境变量](./plugins_variables.html): 自定义的环境变量设置
 - [缓存](./plugins_cache.html)：缓存下载的 composer 依赖，以便下次构建时使用，减少下载时间
 - [Git 仓库克隆](./plugins_git_clone.html): 从 git 拉取最新代码
-- [安装](./plugins_build.html): 使用 composer 安装 PHP依赖库
+- [安装](./plugins_build.html): 使用 composer 安装 PHP 依赖库
 - [测试] (./xxxx.html): 使用 phpunit 执行单元测试
 - [自定义脚本](./plugins_custom_script.html)：自定义脚本，通过脚本完成定制化需求
 
@@ -89,7 +85,7 @@ flow.ci 的环境变量 (link to env variables)
 - [七牛上传插件](./plugins_qiniu_upload.html): 将构建过程中的产物文件，上传到七牛云存储上
 
 
-## 从配置文件配置 Android 项目
+## 从配置文件配置 PHP 项目
 
 如何通过配置文件构建 PHP 项目，请参照 Yml 配置文件章节 [linke to yml for android]
 
