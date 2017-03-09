@@ -211,8 +211,6 @@ CocoaPods
 
 ## 如何调试
 
-**1. 共享 Scheme**
-
 为了保证项目运行在 flow.ci 环境，需要在 Xcode 项目中共享 Scheme.
 
 * 从 Xcode 的菜单中打开 Product → Schemes → Manage Schemes
@@ -221,4 +219,9 @@ CocoaPods
 
 在选择 Shared 之后，会在目录 xxx.xcodeproj/xcshareddata/xcschemes 下生产共享的 Scheme 文件，请确保这些文件在测试之前已经存在.
 
-**2. 上传证书**
+
+## 从配置文件配置 iOS 项目
+
+如何通过配置文件构建 iOS 项目，请参照 Yml 配置文件章节 [linke to yml for iOS]
+
+[Example](https://github.com/flow-ci-plugin/yml_example/blob/master/.objc-flow.yml)

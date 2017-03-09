@@ -1,6 +1,6 @@
-# 构建 PHP 项目
+# 构建 Node.js 项目
 
-本章讲述如何在 flow.ci 上构建和配置 PHP 语言的项目.
+本章讲述如何在 flow.ci 上构建和配置 Node.js 语言的项目.
 
 ## 快速开始
 
@@ -11,40 +11,35 @@
 [Pic 选择Git仓库]
 
 
-**2. 选择 Git 仓库中的 Android 项目**
+**2. 选择 Git 仓库中的 Node.js 项目**
 
 
 [Pic 选择 PHP 的项目]
 
 
-**3. 选择默认的 Android 工作流**
+**3. 选择默认的 Node.js 工作流**
 
-- 选择 JDK 的版本
+- 选择 Node.js 的版本
 
 	[Pic] 
-	
-- 上传 Android 证书(可选)
-
-	[Pic]
 
 **4. 开始构建**
 
 [Pic 开始构建] 
 
-## PHP CI 的运行环境
+## Node.js CI 的运行环境
 
 **1. 概述**
 
-PHP CI 环境运行在 Ubuntu 14.04 (Trusty) Docker 镜像上, 具体配置为:
+Node.js CI 环境运行在 Ubuntu 14.04 (Trusty) Docker 镜像上, 具体配置为:
 
  - **CPU**: 1 核 64 bit
- - **内存**: 1 G
+ - **内存**: 2 G
 
 默认提供了如下工具:
 
-- **Composer 1.3.2**
-- **Pear 1.10.1**
-- **PHPUnit 6.0.7**
+- **nvm 0.33.1**
+- **npm 4.3.0**
 
 
 **2. 自定义安装其他工具**
@@ -59,7 +54,7 @@ PHP CI 环境运行在 Ubuntu 14.04 (Trusty) Docker 镜像上, 具体配置为:
 
 flow.ci 的环境变量 (link to env variables)
 
-## PHP CI 中可使用的插件
+## Node.js CI 中可使用的插件
 
 #### 基础：
 
@@ -78,7 +73,7 @@ flow.ci 的环境变量 (link to env variables)
 
 
 #### 代码检测：
-- [PHP 代码质量检测工具](./waiting.html)：使用 codesniffer 代码检查工具
+- [Eslint 代码质量检测详情](./waiting.html)：使用 Eslint 代码检查工具
 
 #### 消息通知：
 - [邮件消息插件](./plugins_email_sender.html)：邮件通知
@@ -89,8 +84,8 @@ flow.ci 的环境变量 (link to env variables)
 - [七牛上传插件](./plugins_qiniu_upload.html): 将构建过程中的产物文件，上传到七牛云存储上
 
 
-## 从配置文件配置 Android 项目
+## 从配置文件配置 Node.js 项目
 
-如何通过配置文件构建 PHP 项目，请参照 Yml 配置文件章节 [linke to yml for android]
+如何通过配置文件构建 Node.js 项目，请参照 Yml 配置文件章节 [linke to yml for nodejs]
 
-[Example](https://github.com/flow-ci-plugin/yml_example/blob/master/.php-flow.yml)
+[Example](https://github.com/flow-ci-plugin/yml_example/blob/master/.nodejs-flow.yml)
