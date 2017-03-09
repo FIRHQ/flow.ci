@@ -168,8 +168,7 @@ flow.ci iOS 运行环境默认提供了如下工具:
 
 **2. 确认项目中的 profile 与将上传的文件一致**
 
-关闭 **Automatic code signing** 后, 请根据不同的Targets, 指定对应的Provisioning Profiles,如图：
-  
+关闭 **Automatic code signing** 后, 请根据不同的Targets, 指定对应的Provisioning Profiles, 如图：  
   
   ![flow.ci](http://firimg.fir.im/2016-12-23-1.png)
 
@@ -184,8 +183,21 @@ flow.ci iOS 运行环境默认提供了如下工具:
 
 以上操作完成后，记得 **提交git代码**。
 
+**3. 导出 p12 文件**
 
-**3. 上传**
+打开钥匙串访问，点击证书，选择证书文件
+
+<img src="https://dn-shimo-image.qbox.me/wpME1XEV120bvt88/image.png!thumbnail" width=680>
+
+同时选择证书和专用密钥两项，右键导入专用2项
+
+<img src="https://dn-shimo-image.qbox.me/Tu06O2H8Uu4alWhL/image.png!thumbnail" width=680>
+
+导出证书，并设置证书密码
+
+<img src="https://dn-shimo-image.qbox.me/GUKq1hpuUwYKt8RU/image.png!thumbnail" width=680>
+
+**4. 上传**
 
 分别将 **Provisioning Profiles** 文件 以及 对应的 **p12证书** 文件上传，如图：
 
