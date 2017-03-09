@@ -34,9 +34,11 @@
 
 	[Pic] 
 
-**3.3 上传 iOS 证书(可选)**
+**3.3 上传 iOS 证书 (可选)**
 
 	[Pic]
+	
+	如何生产 iOS 证书，请参考 link
 
 **3.4 输入构建参数**
 
@@ -157,7 +159,37 @@ flow.ci iOS 运行环境默认提供了如下工具:
 
 ## iOS 证书的配置
 
+如果需要在包中包含证书信息，则需要在 flow.ci 上传 **Provisioning Profiles** 和 **p12** 文件 
 
+
+**1. Provisioning Profiles**
+
+你可以直接在苹果开发者后台下载 Provisioning Profiles，点击[去苹果下载](https://developer.apple.com/account/ios/profile/profileList.action)。
+
+**2. 确认项目中的 profile 与将上传的文件一致**
+
+关闭 **Automatic code signing** 后, 请根据不同的Targets, 指定对应的Provisioning Profiles,如图：
+  
+  
+  ![flow.ci](http://firimg.fir.im/2016-12-23-1.png)
+
+
+手动选择完对应的 Provisioning Profiles 后，有个叹号，检查下xcode里是否有警告， 有的话请及时修正，否则有可能导致编译失败，如果是正确的如图的类似显示:
+
+![flow.ci](http://firimg.fir.im/2016-12-23-2.png)
+
+上一步确认无误后，看下 Signing Certificate 选项里显示的证书，有可能是每个 Targets 指定的证书是不同的，分别要从钥匙串中导出p12证书，分别上传flow.ci, 如图：
+
+![](http://firimg.fir.im/2016-12-23-4.png)
+
+以上操作完成后，记得 **提交git代码**。
+
+
+**3. 上传**
+
+分别将 **Provisioning Profiles** 文件 以及 对应的 **p12证书** 文件上传，如图：
+
+![flow.ci](http://firimg.fir.im/2016-12-23-3.png)
 
 
 ## iOS 包依赖管理
