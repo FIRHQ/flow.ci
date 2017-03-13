@@ -4,34 +4,69 @@
 
 ## 快速开始
 
-**1. 选择 Git 仓库**
+**1. 创建项目**
 
-所支持的 Git 仓库，具体信息请见 link to git_repo.md
+**1.1 开始创建项目**
 
-[Pic 选择Git仓库]
+如果第一次使用 flow.ci 
+
+<img src="https://dn-shimo-image.qbox.me/k3i3BdkuHkYEAaZl/start_from_empty.png!thumbnail" width=680>
+
+在已有的组织中创建新的项目
+
+<img src="https://dn-shimo-image.qbox.me/9pX9BUdsJoMjPjOv/create_project.png!thumbnail" width=680>
+
+**1.2 绑定 Git 仓库**
+
+如果还没有绑定账号，请先绑定~
+
+<img src="https://dn-shimo-image.qbox.me/jzeh1ckBRYcMa495/bind_git.png!thumbnail" width=680>
 
 
-**2. 选择 Git 仓库中的 Android 项目**
+**1.3 在 Git 中选择项目**
+
+<img src="https://dn-shimo-image.qbox.me/TT5YXI5JuMMhVClr/select_git_repo.png!thumbnail" width=680>
 
 
-[Pic 选择 Android 的项目]
+**2. 选择 Android 工作流模板**
+
+<img src="https://dn-shimo-image.qbox.me/GabaUIuvvF8UKvk0/select_android_template.png!thumbnail" width=680>
 
 
-**3. 选择默认的 Android 工作流**
+**3. 设置 Android 构建参数**
 
-- 选择 JDK 的版本
+**选择 JDK 版本**
 
-	[Pic] 
+flow.ci 目前预装了 JDK 7，JDK 8 的环境
+
+<img src="https://dn-shimo-image.qbox.me/oldjDh9n8coM3KL3/select_android_config.png!thumbnail" width=680>
+
 	
-- 上传 Android 证书(可选)
+**上传 Android 证书 (可选)**
 
-	[Pic]
+如果在项目中使用了证书，该证书可以在创建项目时，或项目设置中设置。
+
+<img src="https://dn-shimo-image.qbox.me/AIXKAhwQ7tIM7i0D/select_android_project_config.png!thumbnail" width=680>
+
 
 **4. 开始构建**
 
-[Pic 开始构建] 
+创建项目后，可以通过多种方式触发构建
+
+**手工构建** 
+
+直接点击项目中 '构建列表' 的手动构建
+
+<img src="https://dn-shimo-image.qbox.me/2tZZ5d9frJwWTRmq/manual_build.png!thumbnail" width=680>
   
-  
+**自动构建** 
+
+自动构建条件可以在 项目 -> 工作流 -> 触发器 中设置，支持:
+
+ * 从 Git 仓库接收 Push / Pull Request / Tag 请求
+ * 设置定时器, 按预设的时间自动构建
+ 
+<img src="https://dn-shimo-image.qbox.me/sPeSEmCzhOM6s3lk/trigger_build.png!thumbnail" width=680>
 
 ## Andorid CI 的运行环境
 
@@ -197,7 +232,7 @@ android {
 
 **5. 修改 build 类型**
 
-使用 gradle 的 assembleRelease 命令来打包生成 release-sign.apk
+flow.ci 默认使用 gradle 的 assembleRelease 命令来打包生成 release-sign.apk
 
 **命令行的方式:**
 
@@ -205,7 +240,7 @@ android {
 
 **flow.ci 中界面配置:**
 
-[Pic: 安卓 build 插件选择 build type]
+<img src="https://dn-shimo-image.qbox.me/i7BIAeqWkQcCPPTl/android_build_release.png!thumbnail" width=680>
 
 
 ## 从配置文件配置 Android 项目
@@ -214,6 +249,6 @@ android {
 
 [Example](https://github.com/flow-ci-plugin/yml_example/blob/master/.android-flow.yml)
 
-## 如何本地调试 TODO:
+## 如何本地调试:
 
-如果在 flow.ci 编译过程中遇到问题，请在项目路径下，命令行中使用 `gradlew build` 进行本地调试。如本地调试成功，flow.ci 上运行有问题的话，请通过 xxx 给我们反馈
+如果在 flow.ci 编译过程中遇到问题，请在项目路径下，命令行中使用 `gradlew build` 进行本地调试。如本地调试成功，flow.ci 上运行有问题的话，请点击线上右下角的小图标给我们反馈
