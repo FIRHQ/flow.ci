@@ -37,7 +37,8 @@
 
 <b>Android 项目 Build 失败的常见原因：</b>
 
-- 基于 Gradle 去编译当前目录下缺少 build.gradle 文件
+- flow.ci 是基于 Gradle 去编译项目，所以项目中需要 build.gradle 等文件
+- 在 flow.ci 上构建时执行 `./gradlew buiild`, 建议在线上构建之前，先在本地项目目录下执行 `./gradlew build` 命令，是否成功
  
 <b>为什么部分组织在创建项目时未显示？</b>
 
