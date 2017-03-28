@@ -14,6 +14,15 @@
 - 1. 你没有 GitHub 项目的管理员权限，无法创建 Github 项目获得相应授权
 - 2. 你已经创建过这个项目，可以去项目列表查找一下项目 
 
+
+<b>iOS 项目 Build 失败的常见原因：</b>
+
+- Pod install 时出现 `Re-creating CocoaPods due to major version update.` 错误
+ * 在项目中重新初始化 Pod 文件 `pod init` 
+ * 在新的 Podfile 中 target 块内输入引入的 Pod 依赖
+ * 上传 Podfile 到 Git 仓库后，即可安装成功
+
+
 <b>PHP 项目 Build 失败的常见原因：</b>
 
 - 项目中缺少 composer.json 文件
@@ -30,7 +39,7 @@
 - 项目中缺少 Gemfile 文件
 
 
-<b>NodeJS 项目 Build 失败的常见原因：</b>
+<b>Node.js 项目 Build 失败的常见原因：</b>
 
 - 项目中缺少 package.json 文件
 
