@@ -38,9 +38,31 @@
 <b>Android 项目 Build 失败的常见原因：</b>
 
 - flow.ci 是基于 Gradle 去编译项目，所以项目中需要 build.gradle 等文件
+
 - 在 flow.ci 上构建时执行 `./gradlew buiild`, 建议在线上构建之前，先在本地项目目录下执行 `./gradlew build` 命令，是否成功
- 
-<b>为什么部分组织在创建项目时未显示？</b>
+
+- 构建时出现 Lint ([Andorid 代码扫描工具](https://developer.android.com/studio/write/lint.html) ) 错误，内容如下:
+
+```
+* What went wrong:
+Execution failed for task ':somepicker:lint'.
+Lint found errors in the project; aborting build.
+
+  Fix the issues identified by lint, or add the following to your build script to proceed with errors:
+  ...
+  android {
+      lintOptions {
+          abortOnError false
+      }
+  }
+```
+
+   > 此错误是因为启用了 Lint 工具，扫描代码后发现了一些潜在的问题，以及可以优化的地方。建议先本地通过命令行 `lint [flags] <project directory>` 运行 Lint，或者根据提示，在 `build.gradle` 配置中忽略 Lint 错误
+
+
+
+
+**为什么部分组织在创建项目时未显示？**
 
 原因：Github 没有授权组织
 
