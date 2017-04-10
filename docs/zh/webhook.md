@@ -5,7 +5,9 @@ flow.ci 支持多种构建触发条件，你可以在 flows 设置中的 Trigger
 
 # API
 
-**POST** `https://api.flow.ci/projects/{project_id}/manual_hook`
+- HTTP METHOD: `POST`
+- URL: `https://api.flow.ci/projects/{project_id}/manual_hook`
+- CONTENT-TYPE: `application/json`
 
 ## 参数
 
@@ -31,5 +33,14 @@ flow.ci 支持多种构建触发条件，你可以在 flows 设置中的 Trigger
         <td>自定义环境变量，此处以 hash 形式传输，如 {"NODE_ENV": "production", "DEBUG": “info”, "my_number":1}</td>
     </tr>
 </table>
+
+Example:
+```
+{
+	"api_token":"your_token",
+	"branch":"master"
+}
+```
+
     
 
