@@ -5,9 +5,9 @@ flow.ci 在创建 iOS 项目时，除了代码仓库的选择，还需要设置�
 
 ## 第一步：创建项目
 
-- 注册登录后，在项目列表中，点击“创建项目”
+- 注册登录后，在项目列表中，点击 “创建项目”
 
-  <img src="https://images-cdn.shimo.im/OYGtVRi6FzgqnxZF/Screen%20Shot%202017-05-04%20at%2011.57.16%20PM.png!thumbnail" width=780>
+  <img src="https://images-cdn.shimo.im/Z1hhli6FInYNbo7J/Screen%20Shot%202017-05-04%20at%2011.57.16%20PM.png!thumbnail" width=780>
   
 - 选择 Git 仓库
 
@@ -15,14 +15,14 @@ flow.ci 在创建 iOS 项目时，除了代码仓库的选择，还需要设置�
   
 - 在模板中选择 iOS 模板，点击 “创建”
 
-  选择 Xcode 的版本，默认为 `Xcode8`，点击 '创建' 后完成开始构建
+  选择 Xcode 的版本，默认为 `Xcode8`，点击 "创建" 后完成开始构建
 
   <img src="https://images-cdn.shimo.im/pyqLocGQgAURmffS/Screen%20Shot%202017-05-04%20at%2011.44.52%20PM.png!thumbnail" width=780>
 
 
 ## 第二步：iOS 项目的基本设置
 
-- 上传证书 & Provisoning Profile (非必填): flow.ci 默认使用模拟器进行构建，如果需要证书构建，请在 '项目 -> 设置' 中选择匹配的 p12 证书和 Provisioning Profile ，如何查找证书和 Provisioning Profile 可见文档：[如何找到 Provisioning Profiles & 证书文件](http://docs.flow.ci/zh/upload_certificate_and_provisioning_profiles.html)
+- 上传证书 & Provisoning Profile (非必填): flow.ci 默认使用模拟器进行构建，如果需要证书构建，请在 "项目 -> 设置" 中选择匹配的 p12 证书和 Provisioning Profile ，如何查找证书和 Provisioning Profile 可见文档：[如何找到 Provisioning Profiles & 证书文件](http://docs.flow.ci/zh/upload_certificate_and_provisioning_profiles.html)
 
   <img src="https://images-cdn.shimo.im/FkGnr2rN0DwFLY8G/Screen%20Shot%202017-05-04%20at%2011.52.43%20PM.png!thumbnail" width=780>
 
