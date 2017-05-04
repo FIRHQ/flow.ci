@@ -22,11 +22,11 @@ flow.ci 在创建 iOS 项目时，除了代码仓库的选择，还需要设置�
 
 ## 第二步：iOS 项目的基本设置
 
-- 上传证书 & Provisoning Profile (非必填)：flow.ci 默认使用模拟器进行构建，如果需要证书构建，请在 项目 -> 设置 中选择匹配的 p12 证书和 Provisioning Profile ，如何查找证书和 Provisioning Profile 可见文档：[如何找到 Provisioning Profiles & 证书文件](http://docs.flow.ci/zh/upload_certificate_and_provisioning_profiles.html)
+- 上传证书 & Provisoning Profile (非必填): flow.ci 默认使用模拟器进行构建，如果需要证书构建，请在 '项目 -> 设置' 中选择匹配的 p12 证书和 Provisioning Profile ，如何查找证书和 Provisioning Profile 可见文档：[如何找到 Provisioning Profiles & 证书文件](http://docs.flow.ci/zh/upload_certificate_and_provisioning_profiles.html)
 
   <img src="https://images-cdn.shimo.im/FkGnr2rN0DwFLY8G/Screen%20Shot%202017-05-04%20at%2011.52.43%20PM.png!thumbnail" width=780>
 
-- 构建参数（非必填项）：这些构建参数在打包时需要用到，例如 如果您有多个 scheme, configuration 时
+- 构建参数 (非必填项): 这些构建参数在打包时需要用到，例如 如果您有多个 scheme, configuration 时，请在 '项目 -> 工作流 -> 编译' 中设置
 
   <img src="https://images-cdn.shimo.im/wmw5VtsaptIr61c4/Screen%20Shot%202017-05-04%20at%2011.37.13%20PM.png!thumbnail" width=780>
 
