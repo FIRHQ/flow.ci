@@ -45,4 +45,6 @@ flow.ci 在创建 iOS 项目时，除了代码仓库的选择，还需要设置�
   - **FLOW\_IOS\_COMPILE\_CONFIGURATION:** 选填项，可以是用户自定义的名称，或者是 Debug/Release;默认为 Release
 
      <img src="https://dn-shimo-image.qbox.me/r1dGD7tF2YkDMXck/image.png!thumbnail" width=780>
+     
+  - **FLOW\_IOS\_EXPORT\_METHOD:** ipa 导出方式 (上传证书后，该选项会起作用)。默认为 development。此选项和证书类型相关。如果构建结果出现 `No valid iOS Distribution signing identities belonging to team XXXX were found.`, 请检查该选项，证书是否有对应的权限。
 
