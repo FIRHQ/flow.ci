@@ -7,28 +7,28 @@ flow.ci 在创建 iOS 项目时，除了代码仓库的选择，还需要设置�
 
 - 注册登录后，在项目列表中，点击 “创建项目”
 
-  <img src="https://images-cdn.shimo.im/Z1hhli6FInYNbo7J/Screen%20Shot%202017-05-04%20at%2011.57.16%20PM.png!thumbnail" width=780>
+  <img src="http://7xsn88.com1.z0.glb.clouddn.com/image.png%21thumbnail" width=780>
   
 - 选择 Git 仓库
 
-  <img src="https://images-cdn.shimo.im/EI1nvlv2r9Ejl9ya/Screen%20Shot%202017-05-05%20at%2012.00.27%20AM.png!thumbnail">
+  <img src="http://7xsn88.com1.z0.glb.clouddn.com/image%20%281%29.png%21thumbnail">
   
 - 在模板中选择 iOS 模板，点击 “创建”
 
   选择 Xcode 的版本，默认为 `Xcode8`，点击 "创建" 后完成开始构建
 
-  <img src="https://images-cdn.shimo.im/pyqLocGQgAURmffS/Screen%20Shot%202017-05-04%20at%2011.44.52%20PM.png!thumbnail" width=780>
+  <img src="http://7xsn88.com1.z0.glb.clouddn.com/image%20%282%29.png%21thumbnail" width=780>
 
 
 ## 第二步：iOS 项目的基本设置
 
 - 上传证书 & Provisoning Profile (非必填): flow.ci 默认使用模拟器进行构建，如果需要证书构建，请在 "项目 -> 设置" 中选择匹配的 p12 证书和 Provisioning Profile ，如何查找证书和 Provisioning Profile 可见文档：[如何找到 Provisioning Profiles & 证书文件](http://docs.flow.ci/zh/upload_certificate_and_provisioning_profiles.html)
 
-  <img src="https://images-cdn.shimo.im/FkGnr2rN0DwFLY8G/Screen%20Shot%202017-05-04%20at%2011.52.43%20PM.png!thumbnail" width=780>
+  <img src="http://7xsn88.com1.z0.glb.clouddn.com/image%20%283%29.png%21thumbnail" width=780>
 
 - 构建参数 (非必填项): 这些构建参数在打包时需要用到，例如 如果您有多个 scheme, configuration 时，请在 '项目 -> 工作流 -> 编译' 中设置
 
-  <img src="https://images-cdn.shimo.im/wmw5VtsaptIr61c4/Screen%20Shot%202017-05-04%20at%2011.37.13%20PM.png!thumbnail" width=780>
+  <img src="http://7xsn88.com1.z0.glb.clouddn.com/image%20%284%29.png%21thumbnail" width=780>
 
   - **FLOW\_IOS\_COMPILE\_WORKSPACE:** 选填项，.xcworkspace 文件名。如果项目不在 Git 根目录下，请参考 [配置项目路径](http://docs.flow.ci/zh/config_project_path.html) <br> *注意: Workspace 与 Project 只能填一项，否则会构建失败*
   
