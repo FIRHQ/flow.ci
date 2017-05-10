@@ -1,7 +1,8 @@
 # flow.ci 中文文档
 
 * [快速入门](./getting_started.md)
- - [iOS 快速入门](./ios_quick_start.md)
+  - [iOS 快速入门](./ios_quick_start.md)
+  
 * [创建项目](./create_project.md)
   - [创建 GitHub 项目](./create_a_github_project.md)
   - [创建 Bitbucket 项目](./create_a_bitbucket_project.md)
@@ -33,7 +34,7 @@
 	- [Objective C for iOS](./yml_file_objc.md)
 
 * [FAQ](./faq.md)
-  - [如何找到 Provisioning Profiles & 证书文件](./upload_certificate_and_provisioning_profiles.md)
+  - [flow.ci iOS 证书配置 ](./ios_certificate)
   - [flow.ci Android 证书配置](./android_keystore_settings.md)
   - [手动触发构建 Webhook 地址](./webhook.md)
   - [手动添加 Webhook 地址](./webhook_git.md)
