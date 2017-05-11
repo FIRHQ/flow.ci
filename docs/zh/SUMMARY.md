@@ -34,7 +34,7 @@
 	- [Objective C for iOS](./yml_file_objc.md)
 
 * [FAQ](./faq.md)
-  - [flow.ci iOS 证书配置 ](./ios_certificate.md)
+  - [flow.ci iOS 证书配置 ](./upload_certificate_and_provisioning_profiles.md)
   - [flow.ci Android 证书配置](./android_keystore_settings.md)
   - [手动触发构建 Webhook 地址](./webhook.md)
   - [手动添加 Webhook 地址](./webhook_git.md)
