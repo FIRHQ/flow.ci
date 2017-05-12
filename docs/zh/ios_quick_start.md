@@ -22,7 +22,9 @@ flow.ci 在创建 iOS 项目时，除了代码仓库的选择，还需要设置�
 
 ## 第二步：iOS 项目的基本设置
 
-- 上传证书 & Provisoning Profile (非必填): flow.ci 默认使用模拟器进行构建，如果需要证书构建，请在 "项目 -> 设置" 中选择匹配的 p12 证书和 Provisioning Profile ，如何查找证书和 Provisioning Profile 可见文档：[如何找到 Provisioning Profiles & 证书文件](http://docs.flow.ci/zh/upload_certificate_and_provisioning_profiles.html)
+- 上传证书 & Provisoning Profile (非必填): flow.ci 默认使用模拟器进行构建。如果需要证书构建，请在 "项目 -> 设置" 中选择匹配的 p12 证书和 Provisioning Profile 并上传。
+
+  目前 flow.ci 不支持自动签名的模式，需要在 Xcode 中改为手工签名，关于如何配置 Xcode，如何导出 p12 证书 以及 Provisioning Profile 可见文档：[iOS 证书配置](http://docs.flow.ci/zh/upload_certificate_and_provisioning_profiles.html)
 
   <img src="http://7xsn88.com1.z0.glb.clouddn.com/image%20%283%29.png%21thumbnail" width=780>
 
@@ -46,5 +48,5 @@ flow.ci 在创建 iOS 项目时，除了代码仓库的选择，还需要设置�
 
      <img src="https://dn-shimo-image.qbox.me/r1dGD7tF2YkDMXck/image.png!thumbnail" width=780>
      
-  - **FLOW\_IOS\_EXPORT\_METHOD:** ipa 导出方式 (上传证书后，该选项会起作用)。默认为 development。此选项和证书类型相关。如果构建结果出现 `No valid iOS Distribution signing identities belonging to team XXXX were found.`, 请检查该选项，证书是否有对应的权限。
+  - **FLOW\_IOS\_EXPORT\_METHOD:** ipa 导出方式 (上传证书后，该选项会起作用)。默认为 development。此选项和证书类型相关。如果构建结果出现 `No valid iOS Distribution (Development) signing identities belonging to team XXXX were found.`, 请检查该选项，证书是否有对应的权限。
 
