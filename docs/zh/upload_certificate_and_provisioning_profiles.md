@@ -1,3 +1,25 @@
+# iOS 证书设置
+
+### 关闭 Automatic code signing
+
+选择 xcode项目里的 **TARGETS** -> **General** 里将 **Automatically manage signing** 关闭
+
+### 手动指定Profile文件
+
+关闭 **Automatic code signing** 后, 请根据不同的**Targets**, **Configuration**, 指定对应的Provisioning Profiles,如图：
+
+![flow.ci](http://firimg.fir.im/2016-12-23-1.png)
+
+**记得手动选择完对应的 Provisioning Profiles 后，有个叹号，检查下xcode里是否有警告， 有的话请及时修正，否则有可能导致编译失败**，如果是正确的如图的类似显示:
+
+![flow.ci](http://firimg.fir.im/2016-12-23-2.png)
+
+**上一步确认无误后，看下 Signing Certificate 选项里显示的证书，有可能是每个 Targets 指定的证书是不同的，分别从钥匙串中导出p12证书，再分别上传flow.ci**, 如图：
+
+![](http://firimg.fir.im/2016-12-23-4.png)
+
+以上操作完成后，记得 **提交 git 代码**。
+
 # 如何找到 Provisioning Profiles & 证书文件
 
 ### Provisioning Profiles
@@ -18,28 +40,6 @@
 
 <img src="https://dn-shimo-image.qbox.me/GUKq1hpuUwYKt8RU/image.png!thumbnail" width=680>
 
-
-# iOS 证书设置
-
-### 关闭 Automatic code signing
-
-选择 xcode项目里的 **TARGETS** -> **General** 里将 **Automatically manage signing**
-
-### 手动指定Profile文件
-
-关闭 **Automatic code signing** 后, 请根据不同的**Targets**, **Configuration**, 指定对应的Provisioning Profiles,如图：
-
-![flow.ci](http://firimg.fir.im/2016-12-23-1.png)
-
-**记得手动选择完对应的 Provisioning Profiles 后，有个叹号，检查下xcode里是否有警告， 有的话请及时修正，否则有可能导致编译失败**，如果是正确的如图的类似显示:
-
-![flow.ci](http://firimg.fir.im/2016-12-23-2.png)
-
-**上一步确认无误后，看下 Signing Certificate 选项里显示的证书，有可能是每个 Targets 指定的证书是不同的，分别从钥匙串中导出p12证书，再分别上传flow.ci**, 如图：
-
-![](http://firimg.fir.im/2016-12-23-4.png)
-
-以上操作完成后，记得 **提交 git 代码**。
 
 # 上传到 flow.ci
 
