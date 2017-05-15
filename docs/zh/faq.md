@@ -37,11 +37,20 @@
 - 构建时的证书问题
  * `Code signing is required for product type 'Application' in SDK 'iOS 10.3'`
  
-      通常该错误是由于上传到 flow.ci 的证书不正确，或者使用的 scheme, configuration 不正确导致的 build 失败。请检查 'build' 步骤的中是否配置了相关的 scheme, configuraiton, 以及这些配置所对应的证书是否和上传的一致.
+      通常该错误是由于上传到 flow.ci 的证书不正确，或者使用的 scheme, configuration 不正确导致的 build 失败。请检查 'build' 步骤的中是否配置了相关的 scheme, configuraiton, 以及这些配置所对应的证书是否和上传的一致.   
  
  * `No valid iOS Distribution signing identities belonging to team XXXX were found`
 
      通常该错误是由于使用的证书，不匹配当前对应的 'build' 步骤中所对应的 `FLOW_IOS_EXPORT_METHOD` 参数，例如: iOS Development 类型无法使用 'app-store' 的设置。请检查项目中使用的 'Provisioning Profiles' & 'Certificates'，已经上传到 flow.ci 的证书类型 (iOS Development / iOS Distribution). 
+     
+      例如：
+          
+	   在初始化步骤时显示 `iPhone Developer`，所对应的 `FLOW_IOS_EXPORT_METHOD` 可以为 `development`
+     <img src="https://images-cdn.shimo.im/OcdfKwz5dSkmDKUq/Screen%20Shot%202017-05-15%20at%2012.23.36%20PM.png!thumbnail"></img>
+     
+     在初始化步骤时显示 `iPhone Distribution`，所对应的 `FLOW_IOS_EXPORT_METHOD` 可以为 `ad-hoc`, `app-store`
+     <img src="https://images-cdn.shimo.im/3g1mIiTwzh87kDsd/Screen%20Shot%202017-05-15%20at%2012.23.59%20PM.png!thumbnail"></img>
+    
 
 
 
