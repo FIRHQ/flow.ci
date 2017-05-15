@@ -41,7 +41,7 @@
  
  * `No valid iOS Distribution signing identities belonging to team XXXX were found`
 
-     通常该错误是由于使用的证书，不匹配当前对应的 'build' 步骤中所对应的 `FLOW_IOS_EXPORT_METHOD` 参数，例如: iOS Development 类型无法使用 'app-store' 的设置。请检查项目中使用的 'Provisioning Profiles' & 'Certificates'，已经上传到 flow.ci 的证书类型 (iOS Development / iOS Distribution). 
+     通常该错误是由于使用的证书，不匹配当前对应的 'build' 步骤中所对应的 `FLOW_IOS_EXPORT_METHOD` 
      
       例如：
           
@@ -50,6 +50,8 @@
      
      在初始化步骤时显示 `iPhone Distribution`，所对应的 `FLOW_IOS_EXPORT_METHOD` 可以为 `ad-hoc`, `app-store`
      <img src="https://images-cdn.shimo.im/3g1mIiTwzh87kDsd/Screen%20Shot%202017-05-15%20at%2012.23.59%20PM.png!thumbnail"></img>
+     
+     **请检查项目中使用的 'Provisioning Profiles' & 'Certificates'，已经上传到 flow.ci 的证书类型 (iOS Development / iOS Distribution).**
     
 
 
