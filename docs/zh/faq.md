@@ -34,6 +34,12 @@
  * 在新的 Podfile 中 target 块内输入引入的 Pod 依赖
  * 上传 Podfile 到 Git 仓库后，即可安装成功
 
+- 构建时出现 `ld: symbol(s) not found for architecture i386`
+  	
+  	flow.ci 默认使用模拟器编译，可能会导致编译时找不到相关的库文件，可以尝试下列解决方法:
+    - 库文件所在的位置添加到 library search path 中后 push 代码
+    - 上传证书，之后 flow.ci 默认使用 iphonesdk 编译 (推荐)
+
 - 构建时的证书问题
  * `Code signing is required for product type 'Application' in SDK 'iOS 10.3'`
  
