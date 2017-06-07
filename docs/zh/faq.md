@@ -36,7 +36,7 @@
 
 - 构建时出现 `ld: symbol(s) not found for architecture i386`
   	
-  	flow.ci 默认使用模拟器编译，可能会导致编译时找不到相关的库文件，可以尝试下列解决方法:
+  flow.ci 默认使用模拟器编译，可能会导致编译时找不到相关的库文件，可以尝试下列解决方法:
     - 库文件所在的位置添加到 library search path 中后 push 代码
     - 上传证书，之后 flow.ci 默认使用 iphonesdk 编译 (推荐)
 
