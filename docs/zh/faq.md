@@ -46,10 +46,10 @@
       例如：
           
 	   在初始化步骤时显示 `iPhone Developer`，所对应的 `FLOW_IOS_EXPORT_METHOD` 可以为 `development`
-     <img src="https://images-cdn.shimo.im/OcdfKwz5dSkmDKUq/Screen%20Shot%202017-05-15%20at%2012.23.36%20PM.png"></img>
+     <img src="http://7xsn88.com1.z0.glb.clouddn.com/ios_faq_code_sign_err_1.png"></img>
      
      在初始化步骤时显示 `iPhone Distribution`，所对应的 `FLOW_IOS_EXPORT_METHOD` 可以为 `ad-hoc`, `app-store`
-     <img src="https://images-cdn.shimo.im/3g1mIiTwzh87kDsd/Screen%20Shot%202017-05-15%20at%2012.23.59%20PM.png"></img>
+     <img src="http://7xsn88.com1.z0.glb.clouddn.com/ios_faq_code_sign_err_2.png"></img>
      
      **请检查项目中使用的 'Provisioning Profiles' & 'Certificates'，已经上传到 flow.ci 的证书类型 (iOS Development / iOS Distribution).**
     
