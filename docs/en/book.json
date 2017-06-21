@@ -1,6 +1,7 @@
 {
     "author": "flow.ci <dev@flow.ci>",
     "description": "flow.ci Documentation",
+    "language": "en",
     "extension": null,
     "generator": "site",
     "links": {

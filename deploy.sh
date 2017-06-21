@@ -53,7 +53,7 @@ sed -i '/author/a\ \<meta http-equiv="last-modified" content="UPDATE-TIME"\>' ./
 
 sed -i "s/COMMIT-TAG/${branch}-${commit}/g" ./dist/index.html
 sed -i "s/UPDATE-TIME/${currDate}/g" ./dist/index.html
-sed -i  's/輸入並搜尋/输入并搜索/g' ./dist/zh/index.html
+# sed -i  's/輸入並搜尋/输入并搜索/g' ./dist/zh/index.html
 
 
 # DEPLOY

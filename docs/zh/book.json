@@ -1,7 +1,7 @@
 {
     "author": "flow.ci <dev@flow.ci>",
     "description": "flow.ci 使用文档",
-    
+    "language": "zh-hans",
     "extension": null,
     "generator": "site",
     "gitbook":">= 3.0.0",
