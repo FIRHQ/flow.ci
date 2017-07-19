@@ -19,10 +19,11 @@
 <b>GitLab Host : </b>
 
 如果使用的是 online 的 GitLab ，直接添加  https://gitlab.com 即可；
+> 目前 gitlab API 的版本只支持 v3, 如果使用 v4 版本可能出现异常
 
 如果使用的是私有部署的 GitLab，请填写私有部署的访问地址。
 
-*提示: 私有部署需要外网访问，在某些情况下需要更改 GitLab 的访问 URL 后才可以正常使用，具体配置请参见 <a href='https://docs.gitlab.com/omnibus/settings/configuration.html#configuring-the-external-url-for-gitlab'>GitLab 配置外部访问地址</a>*
+> 提示: 私有部署需要外网访问，在某些情况下需要更改 GitLab 的访问 URL 后才可以正常使用，具体配置请参见 <a href='https://docs.gitlab.com/omnibus/settings/configuration.html#configuring-the-external-url-for-gitlab'>GitLab 配置外部访问地址</a> 
 
 <b>Private Token：</b>
 
