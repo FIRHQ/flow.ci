@@ -26,7 +26,7 @@ if [ ! -z ${TARGET} ]; then
 else
   TARGET=prod
   USER=deploy
-  HOST="54.223.164.188"
+  HOST="47.94.39.37"
 fi;
 
 # Generate static file
